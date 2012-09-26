@@ -1,0 +1,41 @@
+﻿@using System.Web.UI.WebControls
+@using Microsoft.Web.Helpers;
+@{
+    
+    var fileName = "";
+    var filepath = "";
+    if (IsPost)
+    {
+        var fileSavePath = "";
+        var uploadedFile = Request.Files[0];
+        fileName = Path.GetFileName(uploadedFile.FileName);
+        fileSavePath = Server.MapPath("~/App_Data/" +
+          fileName);
+        uploadedFile.SaveAs(fileSavePath);
+        filepath = fileSavePath;
+    }
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Reading Data from a EXCEL File</title>
+</head>
+<body>
+    <div>
+         <h1> Input the Excel File</h1>
+    @FileUpload.GetHtml(
+        initialNumberOfFiles:1,
+        allowMoreFilesToBeAdded:false,
+        includeFormTag:true,
+        uploadText:"Upload")
+    @if (IsPost) {
+        <span>File uploaded!</span><br/>
+        <div>
+            @Html.ActionLink("Calculate","FinalDisplay","Calculate");
+        </div>
+        
+    }
+    </div>
+</body>
+</html>
