@@ -1,41 +1,35 @@
-﻿@using System.Web.UI.WebControls
-@using Microsoft.Web.Helpers;
+﻿@using System.Web.Helpers;
 @{
-    
+       
+    {
+  
+    }
+    var result = "";
     var fileName = "";
-    var filepath = "";
     if (IsPost)
     {
         var fileSavePath = "";
         var uploadedFile = Request.Files[0];
         fileName = Path.GetFileName(uploadedFile.FileName);
         fileSavePath = Server.MapPath("~/App_Data/" +
-          fileName);
+                                      fileName);
         uploadedFile.SaveAs(fileSavePath);
-        filepath = fileSavePath;
+    }
+   
+    Array userData = null;
+    char[] delimiterChar = {','};
+
+    var dataFile = Server.MapPath("~/App_Data/Sample.csv");
+
+    if (File.Exists(dataFile)) {
+        userData = File.ReadAllLines(dataFile);
+        if (userData == null) {
+            // Empty file.
+            result = "The file is empty.";
+        }
+    }
+    else {
+        // File does not exist.
+        result = "The file does not exist.";
     }
 }
-<!DOCTYPE html>
-
-<html>
-<head>
-    <title>Reading Data from a EXCEL File</title>
-</head>
-<body>
-    <div>
-         <h1> Input the Excel File</h1>
-    @FileUpload.GetHtml(
-        initialNumberOfFiles:1,
-        allowMoreFilesToBeAdded:false,
-        includeFormTag:true,
-        uploadText:"Upload")
-    @if (IsPost) {
-        <span>File uploaded!</span><br/>
-        <div>
-            @Html.ActionLink("Calculate","FinalDisplay","Calculate");
-        </div>
-        
-    }
-    </div>
-</body>
-</html>

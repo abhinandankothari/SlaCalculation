@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="dc29ea14-8a33-4529-876c-b387e03d6bfb"
+  name="Runtime"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ee245f92-07b3-4f7b-91aa-d39252344d38"
+      handle="viewcode://./CodeSchema_Namespace?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.Core.dll Namespace=System.Runtime"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ae3b309d-09b5-41b9-96c7-5ffd1eb1f090"
+        LastKnownName="CompilerServices"
+        LastKnownLocation="Package14_1052.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

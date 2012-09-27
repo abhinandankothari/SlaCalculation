@@ -131,12 +131,14 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CalculateController.cs" />
+    <Compile Include="Controllers\CreateUserController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\CreateUserViewModel.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -242,6 +244,7 @@
     <Content Include="Views\Users\Delete.cshtml" />
     <Content Include="Views\Calculate\Index.cshtml" />
     <Content Include="Views\Calculate\FinalDisplay.cshtml" />
+    <Content Include="Views\CreateUser\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

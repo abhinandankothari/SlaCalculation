@@ -16,10 +16,15 @@ namespace SlaCalculation.Models
     public string Mobile{get;set;}
     
     }
-
+  
     public class UserDBContext:DbContext 
     {   
      public DbSet<User> Users {get;set;} 
+     public void Save()
+     {
+         SaveChanges();
+
+     }
      } 
     
 }

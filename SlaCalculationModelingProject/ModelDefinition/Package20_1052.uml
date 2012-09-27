@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="1deabe8f-ce91-48b2-a5b3-6c3e646f52f5"
+  name="Security"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="28980ad5-9b47-4b15-8d27-b77f8d62ab5d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=System.Web.Security"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="8269603c-0fa1-4ccf-8be7-f36eb372f02d">
+      <profileInstance
+        Id="a2e0717c-3f31-4b79-ac22-fc1dbe834eb3"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <enumeration
+        Id="7da0aa16-0720-4754-8866-93103502023c"
+        name="MembershipCreateStatus"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="24dec2aa-d0ff-4a1f-a296-0663e82b9273"
+            handle="viewcode://./CodeSchema_Enum?Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/System.Web.ApplicationServices.dll&quot; Namespace=System.Web.Security Type=MembershipCreateStatus"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f9af7fbf-cbaa-4179-a36e-11c5152e5148"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa7ce16e-0309-4d21-91db-2c2bf161a605">
+                <propertyInstance
+                  Id="88266cc0-51b1-4632-9be2-f1fec372295a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7654774e-d895-4c47-853c-f094de6f5aa9">
+                <propertyInstance
+                  Id="2f6e7016-f33a-437c-bc33-b9160491d34f"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="12595a8e-cc3e-48f7-bc06-d967caa6ca3c">
+                <propertyInstance
+                  Id="b9b6456c-f31e-4f2d-821e-ebf5efa668ee"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

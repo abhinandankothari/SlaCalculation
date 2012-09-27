@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f74aa9f0-6ab7-41a5-bcd4-0c69fb4c431b"
+  name="Optimization"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="96570c7c-08b3-4446-8334-ab3142a24b95"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=System.Web.Optimization"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="8b5a8505-57fb-449f-b63d-6cd63611e67b">
+      <profileInstance
+        Id="fb2385f5-5a29-40aa-acd4-aff651933475"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="95cbf046-2f06-4a11-8854-e13e02a7f9af"
+        name="BundleCollection"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b7b2bdf7-b578-40b4-b409-42cf6afd0b1b"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/users/abhinandan/documents/visual studio 2012/Projects/SlaCalculation/packages/Microsoft.AspNet.Web.Optimization.1.0.0-beta2/lib/net40/System.Web.Optimization.dll&quot; Namespace=System.Web.Optimization Type=BundleCollection"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d0a86813-a021-4e34-9877-4e6bb01adf6f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa1b533a-d3c1-467a-bfcc-f7bd2e97b87c">
+                <propertyInstance
+                  Id="54eae5c2-58b6-4572-b266-b57df556191e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="69f5ef98-ac8b-4c69-bd82-58d75e9cabec">
+                <propertyInstance
+                  Id="068011c6-65b1-4f90-bba5-6611d02891fb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="21eaa08d-e69a-4b8c-a5cd-34bd6a191ff6">
+                <propertyInstance
+                  Id="5191ec3d-24da-43b9-90c6-9e5f407a71cb"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d128b8a8-f69d-402a-a1cf-0d4363f82fad">
+                <propertyInstance
+                  Id="089ad668-35e6-46ff-b74f-c1df8efa2a5b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bf42523f-ff67-492c-8f51-22395e396f99">
+                <propertyInstance
+                  Id="8e9d8e03-634a-4b43-b1ce-015d3c8eb228"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

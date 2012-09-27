@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="ad50ebec-29f0-4c45-9768-a36a1c5b4f8e"
+  name="Microsoft"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="1b27d5cf-e7bb-41d5-90ae-21aa3591c209"
+      handle="viewcode://./CodeSchema_Namespace?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Microsoft.CSharp.dll Namespace=Microsoft"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="cd657d88-f2bd-470a-a01d-2ae915d6261a"
+        LastKnownName="CSharp"
+        LastKnownLocation="Package1_1052.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

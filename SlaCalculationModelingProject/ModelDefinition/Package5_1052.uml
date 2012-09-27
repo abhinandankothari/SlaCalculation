@@ -1,0 +1,2164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="7a5b7972-e4f3-44fc-8527-80ca741c220b"
+  name="Models"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="bebc9bc6-0f52-4f6c-9e37-24dad8ea7494"
+      handle="viewcode://./CodeSchema_Namespace?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="51630acd-e73b-49b5-8597-086474fd4010">
+      <profileInstance
+        Id="1f1c6120-5b72-4c72-ac07-992f7f9a9e75"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="f75f3b71-6e14-4033-9440-a566a61a32c4"
+        name="LoginModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2fdd12c8-d6ee-48a5-8cf7-1a3e301256d7"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=LoginModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4bde3f26-8d83-460b-9011-21bffc1da6a8"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1bb8448f-547d-4fa1-85f9-ad61f1375198">
+                <propertyInstance
+                  Id="e0ad88ae-33c8-4946-90b1-867a9aef055a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="21d13c23-8397-43ab-8892-916f162c811a">
+                <propertyInstance
+                  Id="fea0b3dd-73a4-4533-9389-b21e9018f738"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4c97f65e-ff90-48d1-b40f-de554b3c4486">
+                <propertyInstance
+                  Id="92573e86-92dc-4fc8-88dd-5cca5713d04c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f2741ce1-9d75-478c-9b8b-d2cc4508728e">
+                <propertyInstance
+                  Id="2ccca044-25b7-458d-a180-6ab97dd7d6ec"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1f017b24-941d-47bc-90b2-8747d87a8c8e">
+                <propertyInstance
+                  Id="7aad16c6-37b7-4f61-b01b-8abcad312f74"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="7b6e7955-f069-4bbc-a1d5-8afe50235e96"
+            name="UserName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="10594d3f-62a0-4449-9fcd-eb7cfdae3e90"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=LoginModel Member=UserName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2c4a5ed5-1f6d-4ea2-8be0-c966b2b92f0d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eac98861-1fd8-4ab0-90c2-9c8323c7b09a">
+                    <propertyInstance
+                      Id="8312f98b-5d99-4eaa-be53-b63734a6cf88"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9571211-6405-45f4-b507-aed651ee8a2b">
+                    <propertyInstance
+                      Id="8893ede3-5dee-4fa2-8681-66f58ec7de26"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ebf9e22-44d8-48f6-8d7d-df74eb1b3589">
+                    <propertyInstance
+                      Id="3fc14e3c-ecbc-4d9d-a31e-918fbf5008aa"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad6ad4d5-aae2-4226-9055-2ac04dac5c48">
+                    <propertyInstance
+                      Id="bafdc1b4-b80f-49af-b994-6cba699ac00d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff49329d-24fe-4f01-abe8-91cae7c6e908">
+                    <propertyInstance
+                      Id="e66acdc7-6355-45fa-95fc-c4fc7b657c57"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="708cdb41-5bf2-433e-a399-c4b15132c61d">
+                    <propertyInstance
+                      Id="bf94cff6-afc3-4f94-b1c4-b7bce3c9603a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c4ed12f-cb6f-46c1-9c9a-e905b638ba19">
+                    <propertyInstance
+                      Id="330a72d5-ec0f-49f9-9cb5-5ab76a74eef9"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="dac6768d-83ed-4e0c-881a-92a139b21b1c"
+            name="Password"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="63c9f43b-012f-4afb-b7e4-39ba6bb7dafb"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=LoginModel Member=Password"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f93ff1e1-cbc4-48c7-8860-cf5c3a4cdfda"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c3af191-2097-4dbd-b3ed-324ea924b514">
+                    <propertyInstance
+                      Id="2aafa31d-2eff-43ff-95af-a73bfa8ee852"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f725f30-e773-4d65-acef-0b75bc44efae">
+                    <propertyInstance
+                      Id="86ebf0b6-d289-4cac-99d2-aa7ce65911e0"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="625ef171-e552-472e-9493-0f1f9ca610db">
+                    <propertyInstance
+                      Id="c64966be-d004-48fd-90d1-8b2aac34b79f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13130dbd-4c8a-4fad-bff9-038a371c95b0">
+                    <propertyInstance
+                      Id="9c96620f-c78a-4503-8dca-6ad3b0de8c94"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55ecdd76-f84f-449a-8de5-bb8041ddaf53">
+                    <propertyInstance
+                      Id="e5f9a172-5e5b-49ad-a9e3-c83576d13928"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="395080cd-2542-4009-9343-4f1f6053fd71">
+                    <propertyInstance
+                      Id="8c60bc3d-d6bf-482d-ac06-82c2ffbc58e6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1800dd71-b7a3-4871-a635-3abf806494cd">
+                    <propertyInstance
+                      Id="d0ea6a9b-994c-4647-9603-3af96607d77b"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="32a555c2-830d-406c-93ba-d2107f3935de"
+            name="RememberMe"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0d993ac2-5e17-4252-9570-452b005d0f26"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=LoginModel Member=RememberMe"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="aaed0656-34c4-454a-a6ad-8e7be2c21287"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="220b9b2b-7f0c-4feb-850a-a9ea8ded6a22">
+                    <propertyInstance
+                      Id="44b53ac0-6d8f-42fa-9ed9-f84108d6908d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5ae1b8b-761c-4d03-9da7-93ac5b5e2fd1">
+                    <propertyInstance
+                      Id="3429f8e7-bbad-47a5-ba24-59fd6fb344bc"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02b81615-ee91-4fa6-b6da-97be5d5189b4">
+                    <propertyInstance
+                      Id="e420820a-7b89-45f2-94ac-7c1a67116ec8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fee5dce4-92f1-442e-8f63-7a508714cb47">
+                    <propertyInstance
+                      Id="712f6b8b-8b00-4a95-b349-6ab41dabbfaf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42b4401a-6b4f-44dd-b4f6-00fdcafa0617">
+                    <propertyInstance
+                      Id="af59fbd3-af12-4581-b8c0-99c7e8104ef6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b38c95d0-e555-4cbd-8bd4-13f231a79ad3">
+                    <propertyInstance
+                      Id="fc3e60d3-520a-4d8c-9883-e599765e1a30"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="297813a7-1915-4146-a13f-91472321d04c">
+                    <propertyInstance
+                      Id="ad77dd31-cc0b-4080-b555-10beecc11669"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="313a7158-24d7-4ffd-937b-1c1635e5ca5b"
+            name="LoginModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e68f73a6-da07-47b1-91cc-d9745cd95304"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=LoginModel Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e3bea7e0-622f-4ef0-ac6c-c0c8049b4c6c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6e13dc4-ec37-40cf-948a-bfec06fe187a">
+                    <propertyInstance
+                      Id="f3a97b15-74eb-4960-82d7-4d6a9f2bcb6c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9473d19f-faf3-4be5-8317-62729eeb977e">
+                    <propertyInstance
+                      Id="ad0cd015-d43f-4c01-b87b-56abc151fad8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13d9e5b5-47bc-48d2-bdd7-72cc8019309b">
+                    <propertyInstance
+                      Id="454fa4be-fa09-4515-a8d4-8d5eb6a51993"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99442a80-4064-4d76-93b1-1733339ebcf7">
+                    <propertyInstance
+                      Id="207d83a5-2f4d-4687-a730-bb688cf17ece"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b1e1a75-01da-492c-a9cf-fe61071879b9">
+                    <propertyInstance
+                      Id="8a2de68c-a1dd-412b-91ab-374eaaed0e55"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="120cfef9-0ccd-4faf-a07d-f8da9e298dde">
+                    <propertyInstance
+                      Id="b95b7908-feeb-43a8-a018-6ffd42e7f534"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7bfc67db-69e9-46dd-81d1-7ff075509af9"
+        name="RegisterModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f4ef2025-232a-47f4-b710-a0ad02da77bd"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=RegisterModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0d304e3e-8916-452f-b160-b0120325815e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="63c59dc6-9969-4381-ba5c-1002542fbbd8">
+                <propertyInstance
+                  Id="d50a6a59-d8d8-43f2-8cd1-2db56e5769d1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b835cd16-5024-4059-9f87-ed6a49d6c71e">
+                <propertyInstance
+                  Id="afcafc88-6134-48d7-9ca0-096ef0937dd4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ebbf77e7-9645-408f-97ec-a556f363290e">
+                <propertyInstance
+                  Id="456687e1-e050-43e6-a762-7264f5211163"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="57d6b12c-678e-495b-8e76-a69c55f2692b">
+                <propertyInstance
+                  Id="80a6a48f-5e5c-4c58-bd8e-b02d881f4f49"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="943f9654-e151-4bb4-a67b-2703a2cd3053">
+                <propertyInstance
+                  Id="92400a03-fc64-4394-b867-8255852f8141"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="ea40033c-0ac4-42af-935c-0001265f4a24"
+            name="UserName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a7e4b63e-71d9-47c3-a852-b8197b5ff393"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=RegisterModel Member=UserName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="45426430-7e06-4550-86bc-25be9ca820d1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8de68070-cd8c-4277-aba4-2861c50dd0ce">
+                    <propertyInstance
+                      Id="e8ae2cc6-3898-4703-938f-fdbbe53ac774"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f729580-64e4-400d-ae46-0075f6590ade">
+                    <propertyInstance
+                      Id="37e23ffb-ac97-4387-883a-7da8d75ab646"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1644a1a3-ece4-4d3f-aba0-13a442817273">
+                    <propertyInstance
+                      Id="2b233f20-1c71-4ad1-8059-ee7176888f07"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9653070f-9439-41ae-8706-7a1e4790456d">
+                    <propertyInstance
+                      Id="937d18ac-cb49-42bc-87b9-e1be5e250b6f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d0b9511-742a-440e-a25b-aa5a421ef58a">
+                    <propertyInstance
+                      Id="681a8bb9-54fb-4540-b006-0042210f826d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="142e9d7d-fe46-4087-85c1-cab05a6f83ee">
+                    <propertyInstance
+                      Id="71dca37a-5c96-423f-bcf8-72dfca890ba2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04043c98-7b84-48b1-ac90-ff60ac6a36d2">
+                    <propertyInstance
+                      Id="0cde51df-7fd1-47b5-abca-9f73bbb642eb"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="38bdfe01-0a88-4711-b5fa-ae4b1f1ecbe2"
+            name="Password"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="cef929cc-683d-4560-839c-a095ed28ed66"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=RegisterModel Member=Password"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cd36e2a5-3655-4bab-b4d9-4425f503cd3c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d22bd45-cdbc-4a2b-a34e-2ebb49f94483">
+                    <propertyInstance
+                      Id="99649f96-a315-47c3-a242-c76b584fb85c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="290d3d53-e0c6-4ea2-836f-0e9d611fe673">
+                    <propertyInstance
+                      Id="d4ba7f41-1e1a-4ac3-b9bd-a35ab4541bc2"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2be616a0-4f41-4596-a86b-077637e326dc">
+                    <propertyInstance
+                      Id="2f365274-8e84-4577-b06d-af819a3d1a43"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e960d60f-c637-48dc-81b7-9ee318a2c128">
+                    <propertyInstance
+                      Id="3018abaa-9ea0-4027-a1b2-7a076f2ff9c6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2afffcf-5976-468f-8b82-57fb8e94727a">
+                    <propertyInstance
+                      Id="b4a51fc2-058c-4bf2-b4a2-2ba7b9c6797e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c40f214-24de-4ff0-bee7-da222f1745d6">
+                    <propertyInstance
+                      Id="ebb447b2-bc63-42aa-8417-c0f23754f267"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f86a3dfa-606a-4e32-9f60-5158732f3fb7">
+                    <propertyInstance
+                      Id="7e359b51-555e-444e-b9d4-c1107ba4c75d"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="39a5f60a-2dd6-429a-bd66-aa590eda82e3"
+            name="Email"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2d9eb509-77bf-49e5-9cf3-e8d19820be7b"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=RegisterModel Member=Email"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5166862f-3686-4dbc-8e4d-29f9ea924a9e"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5ed1cf2-42c3-4007-ae42-d82ca3e92de6">
+                    <propertyInstance
+                      Id="6b153582-8fd2-47e2-a4f4-fd811538fb57"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b0f4c17-6265-40f6-8d54-e4fadd54cba1">
+                    <propertyInstance
+                      Id="bfd76355-40b3-476e-9a0d-6ca4f75b89c3"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2bc6cfd2-92cb-4f62-bdfb-a949e6374648">
+                    <propertyInstance
+                      Id="c73e574d-30e0-4dbd-ae39-1a1a1eecb575"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f35cab5-bb4c-4d35-9ee8-2c1a536559bf">
+                    <propertyInstance
+                      Id="2a0f8d91-e6e7-4796-a32b-65efc8bba3a4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba58610a-13e3-4c37-b2b9-4732b4f21564">
+                    <propertyInstance
+                      Id="c86d3e93-5216-4e1a-87b4-7857f8c0ac7b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2922c9fd-7857-4597-afdd-319f41874b82">
+                    <propertyInstance
+                      Id="21702bf1-1c01-4ed2-817d-3b93147a3f63"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5c2c126-d23a-462b-b993-1e950e205b76">
+                    <propertyInstance
+                      Id="e7b65a1d-6b93-405e-8b32-874ce72ec3b8"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="813d3948-e8b3-44a4-89b2-2a30d18bd292"
+            name="ConfirmPassword"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5c332a37-5e8f-4de0-9e10-53f4376f9d4d"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=RegisterModel Member=ConfirmPassword"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3a3df875-1d45-49ef-86e5-73281fe5f422"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c501a7ad-d8e1-43a8-88eb-b3f6498a98de">
+                    <propertyInstance
+                      Id="32ba6160-13c0-4657-9248-01e827854f5d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3be7d4df-6f4f-46e0-bb0a-1947eebd9a62">
+                    <propertyInstance
+                      Id="753d098f-1d0b-460c-a08f-70274fb5aad8"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="875c6a1f-34a9-44d2-82a0-b0659d1d5b31">
+                    <propertyInstance
+                      Id="82173e22-a4ae-43b0-8fd9-e18db08d7e14"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="804c6ab6-960c-4195-82c9-1fdf0e4b93ac">
+                    <propertyInstance
+                      Id="c7979a0b-7146-4041-91d4-406133b2af37"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad83e393-4f69-4369-8af3-72ed21660084">
+                    <propertyInstance
+                      Id="445ba395-ad01-4a5b-96ee-40c1513962aa"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56d01408-d0f7-42b4-8285-31db259ed681">
+                    <propertyInstance
+                      Id="cc023f91-4aa9-4efa-ba02-46f5e2513694"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed169495-7604-403a-b20f-e176094c2be5">
+                    <propertyInstance
+                      Id="065babfe-7764-46f4-ba3d-4e3fe3619e8e"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d3abe44e-3dfb-4e34-bd26-54f8b8eaf95c"
+            name="RegisterModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="12f134ee-1c76-4975-927c-dd5e5aedbb27"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=RegisterModel Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="28d7d56a-80b5-4cc0-b366-2656f21952ac"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08d67ac9-e333-44c9-b02e-bbcd57e795dd">
+                    <propertyInstance
+                      Id="7c9418d7-f575-4719-a7b3-4e2fb268f336"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57198d59-cd41-451f-b910-6db4204331f1">
+                    <propertyInstance
+                      Id="259821f3-70d5-4b57-8084-c272c97047cb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a07ad7cf-d187-4d1f-bdbd-1b6997222000">
+                    <propertyInstance
+                      Id="6f9b4a48-26d2-4009-a2f0-5161b5cc7906"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c352c9cc-e475-4439-af1e-89be9487c9d5">
+                    <propertyInstance
+                      Id="3e86d842-d318-4c60-85c1-7feaa7643fac"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f001c1e-6b82-4a2f-bcdb-6a9a3cc50085">
+                    <propertyInstance
+                      Id="a1fdc627-387e-48a4-bae2-4fbf4839561f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f55630bb-73bd-407e-b1ef-9020f891289a">
+                    <propertyInstance
+                      Id="376d599a-a4db-4bcb-b9f7-1aff02711401"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="37b745df-dfb9-4f9f-9165-a80ba9e420ad"
+        name="ChangePasswordModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c070d47c-08ea-4db8-ab0c-ece4fe179cd5"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=ChangePasswordModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9d6b2a83-0c30-4257-8b4b-b93850ce72e0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="16fcb725-8aaa-42cc-bcec-4277469b1277">
+                <propertyInstance
+                  Id="15a871a6-a21a-4017-9df8-741466f7f667"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="31a814d4-b185-4204-9840-8b08efc29bac">
+                <propertyInstance
+                  Id="9a694659-28a1-4d55-9d5d-b081d08dd11d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="de04828e-36b4-4941-bae7-60ab6a11c577">
+                <propertyInstance
+                  Id="0eabf3d3-c855-4c42-8dcc-ca606d60461f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="58fc6519-5953-48cc-96c4-e989c35abeb4">
+                <propertyInstance
+                  Id="9db9ea2e-015b-473f-981e-20b6d6a8ffc7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1ff57354-494d-4694-9de1-415d63f4eead">
+                <propertyInstance
+                  Id="c7e10673-c4a4-41d4-974c-428cafc73242"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="4abfd816-d592-4b88-acac-71e857ecedb8"
+            name="OldPassword"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="335abed1-e8d0-434e-9057-328c71374294"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=ChangePasswordModel Member=OldPassword"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="68adfc1c-5392-4dd0-985e-46b350bdee8a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de1e7875-5e25-47bf-bdac-5806dff1e93e">
+                    <propertyInstance
+                      Id="8801d4ec-36fb-42b1-b4fa-ad89a48dbfcf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97362c88-f9ef-400d-933c-c3038c3d1ac8">
+                    <propertyInstance
+                      Id="b388b789-fb09-4848-b140-6f3436a92f38"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae6b1bd3-0534-4e42-bc1f-4fd9c38e1d5a">
+                    <propertyInstance
+                      Id="98f11694-3664-4055-be02-103b881531d1"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc033d7a-ce25-4b1f-9170-650ee76538de">
+                    <propertyInstance
+                      Id="7e1d3331-635c-4c02-a4e7-3a935a236e43"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a37fb8a-bc02-40dd-a1e1-cb3b4210cb81">
+                    <propertyInstance
+                      Id="6598d51c-e4ab-47b8-8e3f-e864af9f8249"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7e2ef0d-d0a8-4e3b-a250-2e4de15a4d81">
+                    <propertyInstance
+                      Id="54b8e07c-287b-4021-a012-b2a3481954a8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99bb0d0a-2929-4f3e-839b-fa8582730711">
+                    <propertyInstance
+                      Id="c01cc7ae-367f-44f6-bb4d-d98a733fce42"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4cc83dfe-517c-4f6d-a901-183a8cb3c390"
+            name="NewPassword"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="63e909fc-b4b7-475c-be98-0efa84a226a2"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=ChangePasswordModel Member=NewPassword"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3a10734f-cfc0-4ae6-8c31-1e3e28bfb5a2"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc666c45-58bd-406b-b404-9f1c5b0097e5">
+                    <propertyInstance
+                      Id="573b270b-b5e3-4b88-ae3f-8c5fad8917fc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60f0baa3-92ef-4b06-90df-c15f801bb517">
+                    <propertyInstance
+                      Id="3d59438d-f075-4626-b2f5-93541f8398ab"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc6ad6b0-976b-45f6-af5a-85b4d9282d30">
+                    <propertyInstance
+                      Id="30ede2d3-f107-44f1-8906-c3c0bce39358"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34ab480d-9156-47ea-9a69-f1166d3bcb19">
+                    <propertyInstance
+                      Id="b89dc5c3-ef94-49de-8647-377a4866c37c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8963244-a0d8-4680-a0a0-2a415e2bfe08">
+                    <propertyInstance
+                      Id="a59f3b2a-40c8-421a-b9be-8b39fdd6e38e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a2724e7-3f58-48d4-ae68-afbedbe7415e">
+                    <propertyInstance
+                      Id="c942c690-cf07-4c5e-9dcf-651056e64e5d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34ee2caa-20c0-44df-9db1-993cf9341eb2">
+                    <propertyInstance
+                      Id="c162dd3d-c70c-42fc-8422-9ca4f7dd22bb"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="18804103-b2b0-49b8-9112-73cdf58004d4"
+            name="ConfirmPassword"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3853ae02-8b53-4d79-b27a-29dd196238db"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=ChangePasswordModel Member=ConfirmPassword"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="92d20be8-5833-4420-8f24-cabd80f521e3"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d751517e-31ab-4bcc-b8d9-2994987724a3">
+                    <propertyInstance
+                      Id="4add97f5-4af3-4d7c-8e3f-a27361b2d9d1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bae5c73c-2d8a-4663-999a-a459547a2b67">
+                    <propertyInstance
+                      Id="dc4f30c9-321a-407c-8eb1-73c055140a7a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29317031-4a88-4e8a-b5b0-e0120a3c70e8">
+                    <propertyInstance
+                      Id="4248fbbf-31a7-43c8-b119-01c525c6ce5e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84b86694-18eb-46b9-b7c7-c30866b306c0">
+                    <propertyInstance
+                      Id="e5e7362c-482f-47f7-978f-89db788e2760"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9a3e9b4-f8cb-4d21-9f79-971871095882">
+                    <propertyInstance
+                      Id="ecaad77d-67f0-4b84-96e5-808f065d05de"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f367362-5214-4ef1-af82-efc546df5a23">
+                    <propertyInstance
+                      Id="3d31faff-989c-4c2c-8e6b-211d7ce525e5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="704c8e47-37fe-480a-ad8a-5d815bc17ebd">
+                    <propertyInstance
+                      Id="359d1a65-b4b8-4e77-a4f0-3d1244832053"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5772a271-593c-404b-b97d-20b3647b061c"
+            name="ChangePasswordModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="752b752f-76e7-42e2-adcb-8d8c5592e003"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=ChangePasswordModel Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="39c68e11-c062-4a15-bee6-b135bc67a189"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b568dcc-b4c5-42ac-b720-7e9716cd465d">
+                    <propertyInstance
+                      Id="2e20ab39-ead1-49fa-8a35-81aeb1723586"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42370da7-00fa-4157-8cd9-f963bd0b5d52">
+                    <propertyInstance
+                      Id="0a0030cb-fb83-4129-ad00-bdd6969cb44f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32de9cc5-8cce-4b6c-9ee4-d3e18a766dba">
+                    <propertyInstance
+                      Id="2098289f-3752-4a4e-9e19-87b2b324dc9f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27eb8fa0-acae-43c8-a9d8-4d18bc44b286">
+                    <propertyInstance
+                      Id="096b03a0-9b17-438d-acdf-9b3f8467a083"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51982ed9-dadc-4356-a889-facaf8cd6dc6">
+                    <propertyInstance
+                      Id="5bf93edb-7600-476b-8d5f-6f7418c8a3ba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34004dcb-26a4-4b07-85b9-1935b1293761">
+                    <propertyInstance
+                      Id="1076e217-e987-4d0c-a119-1110e10548b2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b0781594-9f6a-4b4f-9aad-6ab8e494980b"
+        name="User"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c4b96ab8-e8c9-407a-a2fb-92e3d90c8601"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=User"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0841d511-066a-4c12-a49c-f1cdda97709e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7bb79f73-1484-4dde-be9c-d49aafdc8659">
+                <propertyInstance
+                  Id="e80f2e2e-25c0-4047-8b66-e97301b36a93"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="89774369-0545-444d-9e6e-647896a55675">
+                <propertyInstance
+                  Id="e9ef25a7-035e-4ab2-8e48-0b6959e1ac15"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3ff70a4a-b758-403c-9126-0f3669e896f4">
+                <propertyInstance
+                  Id="96df20a3-01ef-4e7a-85d8-e41011ac9374"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="19182bab-3a35-43c9-9679-93c41a259dec">
+                <propertyInstance
+                  Id="6f915a69-6af1-4b1a-8c36-2f8c9d8beb70"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="47da1f0d-1e63-448e-a7b7-83274b112c33">
+                <propertyInstance
+                  Id="b006a6b4-217b-4350-a565-a9c1f5328243"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="38ae7710-86d6-4821-8daf-d49fdb04669c"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Dob"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f69716d7-ca94-43cb-99ad-83afa0384dca"
+              LastKnownName="DateTime"
+              LastKnownLocation="Package6_1052.uml" />
+            <description>Property Dob references type DateTime.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ea36a4c2-79e6-450d-a4cf-ccb9a1041e1f"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="56a2799a-cbc3-4802-b959-d5c565a59037"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c89c6d49-2dcd-4794-8e5f-fde459025950"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ae5dbcb5-10e6-4980-b603-fbbed9e928cd"
+                  name="Dob"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="57ded51e-6d58-42da-a970-18d57dc15bec"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d6f2f135-00fa-47a6-b69b-6ae68a841595"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="0cd4a532-f5dc-4406-a52d-21243dbda2fa"
+            name="ID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="de23f1bd-8bc4-4fda-bf81-264d4c05b354"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=User Member=ID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="36f10aba-0530-4ede-8bde-5c05af541ee3"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b55e9a2e-4b86-4fc4-802e-0732fba109de">
+                    <propertyInstance
+                      Id="8986efe6-f971-4828-a36f-327d233b479b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d5a9dd4-5504-495b-b7e6-a38680fa9b5e">
+                    <propertyInstance
+                      Id="69aaaa45-d701-4003-8044-3560a07c97c1"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0cbe2c9-7b5d-4ba3-aa24-f4b03675aaad">
+                    <propertyInstance
+                      Id="a6462e3a-721e-41d1-bd57-72c2488ccee9"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0211661c-5783-49d0-9d91-b530c801b841">
+                    <propertyInstance
+                      Id="aef0f359-91b4-49a8-8f80-53a5fa4d6fa5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9fdde79-6ffd-4acd-b138-a494ff70e092">
+                    <propertyInstance
+                      Id="2208568c-a59e-43b5-80b6-8168e30ace7f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c68d3560-fc6b-4e77-b434-92737650bb06">
+                    <propertyInstance
+                      Id="cc21ee0e-5a87-4ec9-b48a-ff3fa449b108"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b894d90f-4320-48eb-b566-254aa43e1086">
+                    <propertyInstance
+                      Id="e447e82a-5b16-443c-a734-d7e011692a0a"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="14b55d29-5f97-4f35-aefd-77b7c6b81169"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a4db9b14-7be3-4659-ab12-3e2f2acc570b"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=User Member=Name"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e9429513-c8b6-46fc-87e4-4b4c560a327d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15bf87fb-0f89-43c5-883d-474c69b20fab">
+                    <propertyInstance
+                      Id="363f0123-9b77-43ae-a003-2434e37eb17b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6abff2d8-e620-4cfc-adf1-893cb458dbc0">
+                    <propertyInstance
+                      Id="42010ff5-c5c5-4680-b8b7-a3132f965078"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4796d43-6b0c-4326-a598-0698ef74f9ae">
+                    <propertyInstance
+                      Id="a1a0f770-86bd-4aa4-b99a-3512e066a553"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e511fca1-2fb1-4a5d-942e-cae5d69e8baa">
+                    <propertyInstance
+                      Id="05138002-ae36-462b-8148-68766d7b5160"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd3e6dd8-d13c-4b5f-b251-7605ad5b8dc6">
+                    <propertyInstance
+                      Id="1917e923-6a6e-49d0-9e38-6ac32113232c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f49bb4b-f605-4da3-b3a4-803edec8cc80">
+                    <propertyInstance
+                      Id="cef0c541-4fdf-43c9-a89a-6e04419c9efc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9079277d-f2ba-4695-b852-b7cd32bfc937">
+                    <propertyInstance
+                      Id="07e5a27c-59ff-497b-a154-cab5482d3c90"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e369724a-459e-4a4f-b68b-0662679edc67"
+            name="EmployeeId"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="96d8abb1-3554-474e-9967-5e986ffebc00"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=User Member=EmployeeId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0bcbcde1-dc84-439b-bb70-a352d8ec96d0"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f165e715-50ef-4ea2-80a7-8fc7d4bfa435">
+                    <propertyInstance
+                      Id="0e89526d-cddc-49bd-8deb-69eaf9c211bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d0e9bb9-4a33-4507-9843-ab148efff20c">
+                    <propertyInstance
+                      Id="90ffe8e1-2f8f-4692-966d-de30fc21bcf9"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab020ceb-15e2-4f70-9c9b-7a13fa65f524">
+                    <propertyInstance
+                      Id="f4c3dee1-94f3-4c4a-921e-9dbb9813ae84"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef83fcf0-b782-42d0-ae12-246cb378d696">
+                    <propertyInstance
+                      Id="f6d293fa-de84-45da-b6cf-1f81e3bfc043"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0e4c232-93fe-4be4-afd4-1a0fdd06eae2">
+                    <propertyInstance
+                      Id="6efa6474-5472-4620-8eaf-9246011a7cdd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6634a192-34d2-4555-adec-daba4be7cdfd">
+                    <propertyInstance
+                      Id="a5d3adcb-9916-44e3-b228-e5ca19efde92"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dede4c4f-bf03-44fb-b872-6391535c429f">
+                    <propertyInstance
+                      Id="5cfea0e9-b15a-4c3e-ae62-a5aa528d75bb"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="df614393-39ba-4658-8494-122b12131b5b"
+            name="Dob"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5b67150c-fc15-4885-a1e1-718daeaf124f"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=User Member=Dob"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0591e0d7-a572-42e9-8cac-112bf9076ac9"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61769974-d7bc-47e0-af0b-3764c3ce4f29">
+                    <propertyInstance
+                      Id="f707c7da-9f1d-477d-b7ff-48365a58e21d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98bcbdfe-aff5-4dc3-95f1-00514924f015">
+                    <propertyInstance
+                      Id="5e930a82-9fb1-4534-b8e3-477f1de3ee8a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07ecf31b-8a8f-497f-a65a-b7bcc7c3d2b0">
+                    <propertyInstance
+                      Id="e2250741-1537-4672-be87-25a1fbdb85ef"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be178b00-4e65-4cbc-9621-e680adf9e378">
+                    <propertyInstance
+                      Id="b5a7a270-e908-422b-a697-4e2b2a12bd73"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40cccac0-c581-4274-b50c-4b4fcf5dbf4d">
+                    <propertyInstance
+                      Id="2e0f5d42-266a-4aa7-836c-bf714ff0d292"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00a5655a-6d66-407a-84d3-6dbc0e8565f2">
+                    <propertyInstance
+                      Id="8b8e22d1-ec56-466e-9d76-2ec8fc83b579"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fa89f06-c4f4-4187-9c09-13f7d7a791bf">
+                    <propertyInstance
+                      Id="ec4b65f7-6805-459e-aa63-d2ecac7012e7"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f69716d7-ca94-43cb-99ad-83afa0384dca"
+                LastKnownName="DateTime"
+                LastKnownLocation="Package6_1052.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bee675e7-4daa-417a-8434-cebe68c3f488"
+            name="Email"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8d598864-8533-448d-b0a7-ab5a514c01b5"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=User Member=Email"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="90ccb48f-ac64-4669-a14a-aba353b5043a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d94a5af0-0fc0-4b22-a32e-0616c580d163">
+                    <propertyInstance
+                      Id="79442068-fabc-4a51-8e75-be84aca3ca10"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="658f4f36-ab5b-4bd9-8545-06a8995dd7ad">
+                    <propertyInstance
+                      Id="5a9e39ce-336b-4f90-a274-2545ca0d4930"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d884293e-801c-4bfe-8f1d-2d41a73a805b">
+                    <propertyInstance
+                      Id="195ec8e6-cd45-43d9-ae34-2dec7e774f10"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1bd1a30-42c4-4118-9f0f-9eb6f06d73ba">
+                    <propertyInstance
+                      Id="3a262696-60c5-4200-a4f7-2031ec8d771a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d67575c3-ca5e-42ef-8fbf-41a29083750c">
+                    <propertyInstance
+                      Id="3541ecce-9589-49f1-ba1b-6d5035e983f3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8454dbc7-c90d-40d6-b482-89699d590a02">
+                    <propertyInstance
+                      Id="7a12cd87-1770-4ccc-83c5-1d184d6ea8a7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61894a71-a188-44dd-8311-5adb70d011e0">
+                    <propertyInstance
+                      Id="76dc98f4-250a-46ab-8c41-9fc353885764"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="54f049b1-7550-4fc7-a719-e488f7d8a200"
+            name="Mobile"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5dad1533-4aef-43fd-9b74-6cb30e0f6ce1"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=User Member=Mobile"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="83906ede-f626-4d8c-946a-c5b0a310d660"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="689924df-5c7a-4b76-9ead-0bf25b7eb8af">
+                    <propertyInstance
+                      Id="59e953c4-7192-47c0-bb38-f18c558d7d77"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca53a7d3-7056-4144-9d1e-386579ef7230">
+                    <propertyInstance
+                      Id="f8ee26f4-f3f8-497c-9161-04f45d03a1ff"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1118825-f319-45c9-9a36-a5c7793a1e72">
+                    <propertyInstance
+                      Id="095077b8-9c92-4471-837b-256a8ad1d16b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd7310c5-9d41-4ba8-83b3-8219d7099c1b">
+                    <propertyInstance
+                      Id="214fb021-3daa-4b4c-ad22-949eb94fb53b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78ad1439-dbbe-4b2e-86b6-6bd56cf2070f">
+                    <propertyInstance
+                      Id="01fd348e-cbc2-40f7-bb0e-d112f712478c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e7f621b-2cd5-49ff-a4c5-ec34d8847b2b">
+                    <propertyInstance
+                      Id="38fd36b4-6036-4eeb-9b7b-2735a862a6b8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eafcce33-4700-4b90-8421-8de43e62d90c">
+                    <propertyInstance
+                      Id="9349f5ca-56d6-4058-9134-46770f4d09b3"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SlaCalculationModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0392080e-8e7c-4b2d-b215-2a9adc5f8302"
+            name="User"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="082c5c71-d7a5-48fe-8d15-9877b8fe22dc"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=User Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bb37d908-d318-49a7-bfd6-9fa151645c30"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd600389-ba37-47dd-8cf4-be0b95e76287">
+                    <propertyInstance
+                      Id="b3172ebd-4753-4a2a-a596-49c83e2a6ab7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0fd47e95-c3f1-47e9-844a-433413108cbb">
+                    <propertyInstance
+                      Id="847880bf-a5ab-4788-8abf-ab46545c00bb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50d249c0-a9ba-47d6-aafc-e26540db4389">
+                    <propertyInstance
+                      Id="e57d039c-9204-417f-9c63-68bd8622288c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2cb0746-0560-4af7-a9b5-5a27a94baa25">
+                    <propertyInstance
+                      Id="0c3f72f7-6667-4e60-9a9a-565f89fae4a3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52ed1a8e-e3c0-45d9-8cb0-c7503e8895a8">
+                    <propertyInstance
+                      Id="1db8df35-6be6-47c0-8e67-76c4d9d8e5d8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6463c134-3b6b-4cce-baba-1e0aa18bf856">
+                    <propertyInstance
+                      Id="557f748b-b6c1-4a38-bbe9-64f79fc7a67e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="92015dbd-67db-4485-ae72-fe4cb0896714"
+        name="UserDBContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6e157fbe-9796-4e41-9558-d2fcc03e1439"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=UserDBContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6c8c3507-3608-401f-8a7b-231adb8e79ed"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="87d076a5-8f94-40e5-85c3-9812e9066568">
+                <propertyInstance
+                  Id="3b085913-8e48-4758-aaeb-e401ea669ac8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d242a535-4ef7-4e2c-afd1-8131d8bc2b89">
+                <propertyInstance
+                  Id="38e5d6d5-da4e-4062-a118-9b389ecd50af"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="760c4e73-701e-4be3-adc1-a6a400661b63">
+                <propertyInstance
+                  Id="37f913cc-f7c1-427d-a3c0-01e8a32f0da0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0c35eda4-dfd3-4fda-9348-daa3f588d256">
+                <propertyInstance
+                  Id="842994eb-c5ed-42a7-9588-4ae1f322a4df"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="12ef4bdd-2026-4123-adcc-bd7fea84a7fe">
+                <propertyInstance
+                  Id="6ad750a5-ea0b-4c9e-badd-bbaf8a7e79b8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="272966df-2279-42d7-b952-95c761ab42c7"
+            isSubstitutable="false">
+            <classMoniker
+              Id="3aa29bf8-03d1-4ce7-80dc-236e44144348"
+              LastKnownName="DbContext"
+              LastKnownLocation="Package10_1052.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="9bde315e-336f-4c6e-9e9d-307772868c42"
+            isDerived="false"
+            sourceEndRoleName="UserDBContext"
+            targetEndRoleName="Users"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c2077845-614f-4bed-94d6-9f2fb1c5fefe"
+              LastKnownName="DbSet&lt;User‎&gt;"
+              LastKnownLocation="Package10_1052.uml" />
+            <description>Property Users references type DbSet&lt;User‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="71a7e08e-c893-491d-aeb1-a1b28cdcdc34"
+                  name="UserDBContext"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="6e14578d-ec40-4965-8863-7ac0b81dfe6a"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="893a3813-24b6-4f69-a1d2-ade1c0920a87"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9380c2ce-577c-4fde-b2ae-390cfc3b7928"
+                  name="Users"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="042eb8a9-19c0-4c68-9611-dc467b4f9293"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="8de6e939-d942-472a-af4a-50cbaddffe12"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="c1374d8c-755f-4f2c-b606-c2a93a71ca32"
+            name="Users"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e2cf560e-b58f-4111-8486-0e4f0af8dbaf"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=UserDBContext Member=Users"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b44ebaf6-200e-4593-baeb-a5200c178182"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0c664ac-249a-450b-9dee-1d91748d74a8">
+                    <propertyInstance
+                      Id="65702ff3-c7ad-497c-9717-f25d953cbfd9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35c82b0a-ebf0-4aa8-aba3-4b58ee2bcc24">
+                    <propertyInstance
+                      Id="84f673c0-eeea-489e-b143-2e66b0f74767"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d95eae7-2b7f-4cd4-84af-5d88683c6a10">
+                    <propertyInstance
+                      Id="8ec3a0be-41ff-4d82-be47-b6f4c1aab563"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5351b34e-aa81-4b18-860d-988a7a31d7c4">
+                    <propertyInstance
+                      Id="2121da83-2a24-4100-9208-8415ac7e1e7b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8363d83-a074-477a-a5c8-a27dfdc748b8">
+                    <propertyInstance
+                      Id="966c58d2-1018-443c-ad70-0839e1e5b826"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="714c9c6e-fdae-45c8-9078-08610c8e5808">
+                    <propertyInstance
+                      Id="e5f6b724-e2ea-4019-b797-bd8958b77429"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe2d1992-114a-4aba-a479-a0f686a14a29">
+                    <propertyInstance
+                      Id="4510c328-f1d6-4afe-9b31-7d71ead7f5fa"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c2077845-614f-4bed-94d6-9f2fb1c5fefe"
+                LastKnownName="DbSet&lt;User‎&gt;"
+                LastKnownLocation="Package10_1052.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d64f73e1-3ac7-43ac-a8d2-938be48b9c47"
+            name="UserDBContext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3ab32f1e-7387-4694-84fa-7b5ed578d33d"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=UserDBContext Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="50711687-e1a7-4850-bfdb-adb1bdcf94a9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="972ba68b-d8dc-4126-bcbe-347e310309fc">
+                    <propertyInstance
+                      Id="e29af164-1c51-4bb7-8e4e-53d7edb6343d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf3c7e70-be57-4cc1-8856-1dba240f1f3a">
+                    <propertyInstance
+                      Id="f7ce1d92-eaa0-466f-95b0-582f8a7bcf05"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbc07a79-d638-4339-adfd-26a4847093d7">
+                    <propertyInstance
+                      Id="cf1fdd80-1d5d-43eb-af02-9e158072aa19"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4161b849-d85e-4f4e-847c-70f35f2b268e">
+                    <propertyInstance
+                      Id="307213af-f0c8-4d4f-88f8-1dc19890d087"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6b4ef9d-e16e-4a33-9c4e-ad7890f63e48">
+                    <propertyInstance
+                      Id="b6d84663-dca6-48a6-9390-81e464602af3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="acec3c98-49dd-4e50-973d-1dacb41d956b">
+                    <propertyInstance
+                      Id="318d0ce4-e101-4938-b676-f9752f2651e0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

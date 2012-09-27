@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="83853e7b-f7ae-423a-a8fc-76f62b8d37ee"
+  name="SlaCalculationModelingProject" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="4d99b0a1-4456-4701-a9c1-cf11d7efd46c"
+      handle="viewcode://./CodeSchema_Namespace?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=::"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="73a80c99-0a27-4ea8-90d9-7bf4f13dbc1e"
+        name="&lt;&gt;f__AnonymousType0"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d6dd61d6-d4c3-402e-bbb0-3c14f06d2c9b"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Type=(Name=&lt;&gt;f__AnonymousType0 GenericParameterCount=1)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bb39f348-b66e-46a5-b33c-9048f7c6056d"
+        name="&lt;&gt;f__AnonymousType1"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c65b7484-10b9-46da-a0cc-01e8eb05bcc1"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Type=(Name=&lt;&gt;f__AnonymousType1 GenericParameterCount=3)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ad50ebec-29f0-4c45-9768-a36a1c5b4f8e"
+        LastKnownName="Microsoft"
+        LastKnownLocation="Package_1052.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1a80855b-d81f-45dd-a988-b057cd5e3139"
+        LastKnownName="SlaCalculation"
+        LastKnownLocation="Package3_1052.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="4c8083b9-f703-4a49-812a-1240b19eeab1"
+        LastKnownName="System"
+        LastKnownLocation="Package6_1052.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

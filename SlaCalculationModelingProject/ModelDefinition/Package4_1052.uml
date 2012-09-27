@@ -1,0 +1,2766 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6d42efe5-c6e3-4b7d-a3e5-0798223d170d"
+  name="Controllers"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="23ce10dd-a8c9-486b-9253-54fc104a9521"
+      handle="viewcode://./CodeSchema_Namespace?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="ec286926-7582-4b8e-b308-22c5a446ed40">
+      <profileInstance
+        Id="b59f2954-03d2-4b4c-b0bc-79194a9146f3"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="6dba1065-e6c8-4bb5-a30a-0399933cba44"
+        name="AccountController"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9ac9dc63-03b3-4e50-b59a-e552d9f74fd8"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="24f9448c-e0ff-4b1b-a087-94050a8fc7d0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a99c3cc7-d9c2-4e0e-85f0-0bf5a12f61af">
+                <propertyInstance
+                  Id="745c2450-f4e9-4995-aab1-27cc81379d03"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f34030b-ca35-46f5-8030-71bac07e42bb">
+                <propertyInstance
+                  Id="82831ca5-cb87-49bc-98a5-4f267c4767fb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bf65b749-0623-4b84-b388-1c1168cb75f7">
+                <propertyInstance
+                  Id="0e4308b6-d091-4d66-804a-638b98f16fd3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7f1e3647-5f0b-421f-9b30-5310082baeb3">
+                <propertyInstance
+                  Id="99c764e0-2f30-4931-8fde-e49aeafe169b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="df57e83b-7449-4d3a-8917-46cc8eb3108a">
+                <propertyInstance
+                  Id="e80e1df6-87b3-4dfc-aea3-050fd5a33b8b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="8f10cdbc-fb79-4901-8be4-dcc6a0dca453"
+            isSubstitutable="false">
+            <classMoniker
+              Id="55244931-fce8-4d37-bfcd-ad313d766257"
+              LastKnownName="Controller"
+              LastKnownLocation="Package17_1052.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="3e48e698-5c7e-4a2a-a934-1700ebe80aa4"
+            name="Login"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1fc0dc2c-380a-4593-951c-344a8f80ceb4"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=(Name=Login OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f0f49a73-445e-42fe-8ff0-e97c32dffe14"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2bb0ce42-4aed-4ae0-b2cb-9d5c67b11a6e">
+                    <propertyInstance
+                      Id="3a6dbe97-3710-49fd-a12e-5d5235fa174d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="303b7113-9701-4791-a1ce-c28762213b99">
+                    <propertyInstance
+                      Id="df50f6b9-5bd2-4fa1-9bdf-67ffdad2e501"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="930f48ce-6e70-4ddf-ae8a-93e9f93747a5">
+                    <propertyInstance
+                      Id="49f39a12-4013-4e44-b552-260cd0f5ace3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2cac2779-7231-41eb-ba91-644eefee9cf1">
+                    <propertyInstance
+                      Id="cc6f6445-e39d-47e3-88a3-25b3e5c73bce"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e9c2ffd-8936-458f-8c97-30faf8b7ff58">
+                    <propertyInstance
+                      Id="36a274b2-5d2d-46b2-92fe-e14a7462a7f0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eea5802f-6fef-47e5-a48b-ceb8f0689e4f">
+                    <propertyInstance
+                      Id="4646e144-e34d-4126-95e0-6a91ce733825"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0f07087e-0700-441c-a720-de7dd6afabed"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="81ce6677-63c4-4171-954d-f67f18b93529"
+                  name="returnUrl"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="59f9b914-b85a-41cd-949f-97781fef712f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=(Name=Login OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String)]) ParameterIdentifier=returnUrl"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="SlaCalculationModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="05253bf5-7822-47cf-9d8d-110b19eb654a"
+            name="Login"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="233415c4-c393-45d5-8514-841163f789bb"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=(Name=Login OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=LoginModel),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c3d82851-4fcc-44fa-bcbd-fda371839698"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="571e8fa2-486c-43ab-8052-31b9138fdf4e">
+                    <propertyInstance
+                      Id="b8460e54-0304-4fa7-8070-8dadd706fbfb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2bdb262-57cb-40d7-a410-7d4c1fa7559a">
+                    <propertyInstance
+                      Id="99a3eb36-19af-42ca-8b90-ea03a8abd74f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ce96857-e46c-4f46-ab18-ab17abeabfd6">
+                    <propertyInstance
+                      Id="f44b0abd-278a-4724-b7b5-f28b51dec50c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82f3c835-ae41-4cab-8f20-0e5e2687b50e">
+                    <propertyInstance
+                      Id="2ca55212-aa86-43bc-96aa-f9edaec6e1ff"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce0a4758-f181-4699-b017-307441c44e26">
+                    <propertyInstance
+                      Id="13c74f3e-f773-4e1d-960a-ff54a39628d5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e663c8f9-4dec-4d0c-b318-d6c48bb39a57">
+                    <propertyInstance
+                      Id="67f824c7-59c2-4355-891c-81cc9098bfb1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="48d17385-d01e-4097-94d9-0853f188f946"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d7dbb8be-ac60-4453-8715-ee1c6fc0128a"
+                  name="model"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="10de9fee-a8f4-4fa0-b746-d4ba68070530"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=(Name=Login OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=LoginModel),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String)]) ParameterIdentifier=model"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f75f3b71-6e14-4033-9440-a566a61a32c4"
+                      LastKnownName="LoginModel"
+                      LastKnownLocation="Package5_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1848e7d1-a567-4326-a05c-b4d5d59f06fa"
+                  name="returnUrl"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c606f6ba-2c5d-4789-adcd-32dbf4dbdffa"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=(Name=Login OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=LoginModel),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String)]) ParameterIdentifier=returnUrl"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="SlaCalculationModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c58179b6-75d7-4a29-b2b5-878de4e2a3a8"
+            name="LogOff"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="113f090f-6078-4f09-b552-c54f312e2067"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=LogOff"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="753b7412-81bf-490f-917b-1b19480b9831"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ddff78f-42f3-463d-9a57-3f66d2774976">
+                    <propertyInstance
+                      Id="7acdce05-b220-47eb-8bde-7da383373046"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce39b951-5b97-4ea4-85f1-bccc876e8a94">
+                    <propertyInstance
+                      Id="08bd32f4-0047-4b8d-94e4-c4304c95e707"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f4d708a-a6df-42d8-a355-1a00dadb6bd1">
+                    <propertyInstance
+                      Id="746d7bf1-5060-455f-8a14-3a63dc566f04"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d2e1ce4-46f5-4bb8-9cb8-9b9f20fb2ed0">
+                    <propertyInstance
+                      Id="666b53aa-aa41-4338-ad93-5689f28ae3f3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9168fade-2320-4d53-bf7c-54b53b0476fe">
+                    <propertyInstance
+                      Id="9df8ff30-748c-4ce2-9c36-cc7f2b8bec59"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="384220db-0c09-4b22-a52f-37a99ce6f225">
+                    <propertyInstance
+                      Id="80dcc32c-96b6-4fdf-94de-8bf38f4f6194"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="629ebc0a-c965-44e0-b524-e8e6fffaef05"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="74bb43e7-8044-431c-8091-be2546b4b142"
+            name="Register"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="79349a15-f917-42b1-bdfd-2e6251e144ef"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=Register"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="261f827b-7ebb-4381-9bce-c09f6822b06e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e447482d-2ea2-4c31-9c01-0b863ff25304">
+                    <propertyInstance
+                      Id="237ce30e-fba3-4fec-ab68-37f93c99f5b9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="991c7951-43c7-44f5-898f-3182fbc86951">
+                    <propertyInstance
+                      Id="fa8f516c-0b33-4428-9606-4a4dc492ce50"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12e25401-2dca-4f56-98da-8d2f0623dfe6">
+                    <propertyInstance
+                      Id="0daf1b45-30a4-4e78-9aa2-07b4761fa543"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8d6fdeb-2922-4b00-93c0-06bed6a1eb62">
+                    <propertyInstance
+                      Id="7291ed72-adaa-4d6d-bc7f-66e94f47e377"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c211954-79c5-4e4d-a2e0-a4a32419db83">
+                    <propertyInstance
+                      Id="7e50f53b-3867-4bea-987e-a5a36d8241be"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="146efab8-7781-4c98-85a9-fe1024a37539">
+                    <propertyInstance
+                      Id="85fa4266-fd24-474e-9ee9-233545711cab"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b2b9ad13-4252-4c84-aeff-6fdc8ed3fad0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8b97989c-2ed7-451d-89f9-b81ddfeafc11"
+            name="Register"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cef226d4-994e-47a5-9845-2699f77885e2"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=(Name=Register OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=RegisterModel)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="61863ced-eadf-42d6-89ff-a84207e911ae"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da9b17f6-8ad5-48c4-b5a8-fadc7700d4e8">
+                    <propertyInstance
+                      Id="10f2d18d-d1f1-4b9e-b7d6-9c7c41dac83c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7ca127f-8458-444f-93d9-73d8917a5d1c">
+                    <propertyInstance
+                      Id="5ac5c120-1a9d-4894-b2d8-4eb80d56409d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="238c3634-8f84-4378-85c4-0da53d847705">
+                    <propertyInstance
+                      Id="ad361826-5eb5-41af-8934-5c050b36476f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27c549cb-6c2a-44d3-888b-82202cc48843">
+                    <propertyInstance
+                      Id="f6fe275b-59f0-4924-bd46-a57e7b60c5ec"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37059b67-f1d1-4c9d-a7c8-4405c58827d6">
+                    <propertyInstance
+                      Id="c8bfa8e8-5951-4941-b822-faf8e188bbe7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="153da86a-0ef3-4c66-b201-50c6714877c1">
+                    <propertyInstance
+                      Id="e36c40b4-1dfe-462d-92fc-d80bdf0a51a0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="30c3d5de-bba4-4d22-901f-b0f1ad94f165"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="182836d9-fd3a-4183-8759-569bb10bd986"
+                  name="model"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6c0d3800-ba55-4371-a618-45d69894d614"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=(Name=Register OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=RegisterModel)]) ParameterIdentifier=model"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7bfc67db-69e9-46dd-81d1-7ff075509af9"
+                      LastKnownName="RegisterModel"
+                      LastKnownLocation="Package5_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b824808d-a648-4a66-99f7-fc8f1bd30939"
+            name="ChangePassword"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="de539412-c47e-4cfc-a610-087499583d56"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=ChangePassword"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bf84b2e8-3748-4a8b-b8bd-1f349cdfd547"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="723b4786-6546-4d28-9f2b-c84f83e1f38a">
+                    <propertyInstance
+                      Id="a14869c1-2d0b-4c70-9535-656901f82232"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a909896-a0f1-45f3-a164-c869b1c318dc">
+                    <propertyInstance
+                      Id="99b32f4f-a3af-4ce9-a1fa-e54a01c462aa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99dee79b-0475-4aca-a9dd-c975bba994c9">
+                    <propertyInstance
+                      Id="ffa46a73-7c15-4d0d-9792-34c8f7e3336d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11b6d9a8-b44e-44f5-9ef5-f0a6baac0fb5">
+                    <propertyInstance
+                      Id="4c79a6c5-c0b3-4b21-81b9-c34e9b1a870f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c8bb6c1-b0bb-4edf-9917-97de500b318b">
+                    <propertyInstance
+                      Id="2ca5ba8b-d565-4dce-8cf9-b4b43fccd838"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e58d350-c26f-4927-9acf-3c28d089b8cc">
+                    <propertyInstance
+                      Id="c5821cb7-f1f7-4560-8a97-c86b82686490"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9dbab2b6-1c76-438a-b070-775ce9b837e8"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="da7aada6-e835-4072-a390-2ee4132ee16b"
+            name="ChangePassword"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2ea2dc08-c279-4969-84f6-362646c9eb50"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=(Name=ChangePassword OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=ChangePasswordModel)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a94607a4-5f33-487d-ae7d-21a23b9698f6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1adcfab-1458-4af9-bbdb-f401efd3bc72">
+                    <propertyInstance
+                      Id="1dd9415b-08f4-47f6-9a31-03b50dd433c8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="118e7708-7095-4607-95e6-e524bfacc0c4">
+                    <propertyInstance
+                      Id="a2285ec1-c192-4d9a-a760-e1fff6934957"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="761d1a8e-e89c-4b81-939b-e17170c85361">
+                    <propertyInstance
+                      Id="bb5867fe-5403-43d7-a9c4-4b66113addf5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48ceb367-8a10-4a80-b64f-2cc825ef7a8b">
+                    <propertyInstance
+                      Id="05a7ad59-f2ce-42c0-b856-da3aae1eae71"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eacec5da-b9fb-47d6-b5f4-33407d1342ff">
+                    <propertyInstance
+                      Id="fd8211dd-33ab-43f3-8d9e-1873712d37e2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e276ac02-2464-4f46-9920-521243b8f8a6">
+                    <propertyInstance
+                      Id="320121bd-924d-40d4-8daa-9b5ec92e5b69"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="59ad7c4b-6e27-40e9-830f-6d8b058bd0e2"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e919632c-2130-4359-b8d0-b9fac1775d11"
+                  name="model"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0c6cf2cf-0a7c-417f-8b31-a2c0b34d5390"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=(Name=ChangePassword OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=ChangePasswordModel)]) ParameterIdentifier=model"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="37b745df-dfb9-4f9f-9165-a80ba9e420ad"
+                      LastKnownName="ChangePasswordModel"
+                      LastKnownLocation="Package5_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e1535e25-f0b1-4b76-aaa7-ac1a8f2da2b5"
+            name="ChangePasswordSuccess"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f142d62a-3bd7-469a-b7c8-055e1b8650c2"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=ChangePasswordSuccess"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a664f5a1-e811-47c2-b900-2ce3f8a9475d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="360f3ea1-70e4-496a-933f-49e12844d971">
+                    <propertyInstance
+                      Id="23423de8-f0c0-4435-b94e-ba1a0f081b46"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="033fae41-b808-447a-b780-d4ae77a12a98">
+                    <propertyInstance
+                      Id="701d6f1e-c9dd-445c-9238-56b0d989fa0a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="004aaa33-d08d-4704-b8f1-d7cbf10826f1">
+                    <propertyInstance
+                      Id="b145836b-dde3-4993-94c1-46faf5682132"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bdad5e89-e65c-4926-ae15-812cfb975297">
+                    <propertyInstance
+                      Id="8bc81c56-8163-40c1-9880-d5495db89e2e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb2e166f-4432-4259-85f6-e5e5b8680dda">
+                    <propertyInstance
+                      Id="876a8bf5-dead-4c76-9099-d3800b84692e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8fdcab0-db00-44e4-aaac-04223a4dd0c4">
+                    <propertyInstance
+                      Id="d358fc0e-6eb3-4d04-a119-97b6fc98f77d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aafb2e32-2fe3-4b95-a398-559294679c96"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7a9b994b-79b7-44a9-99b2-dd9f5242ab20"
+            name="GetErrorsFromModelState"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0477f373-11d3-497e-b93f-1fb6263d3dc4"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=GetErrorsFromModelState"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b790f7c1-f791-45e8-9449-2870d24a7dd0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78fcbb79-a0ef-46ba-a0fd-9a27efe22092">
+                    <propertyInstance
+                      Id="dd9044fe-84db-435f-acdd-894cf82d3a10"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09fc2535-285a-44c1-8a89-cfbb748cc4f7">
+                    <propertyInstance
+                      Id="750871ea-9c59-4d8d-a6d5-a82991f498a3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5bc56c9-bf3b-46b7-809d-647f9f851c00">
+                    <propertyInstance
+                      Id="c11f43b2-3343-4ea7-b48f-7487cd5d158d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="964298a1-d1eb-480d-88f4-78e66c8d2db3">
+                    <propertyInstance
+                      Id="26105f8c-63dc-4b84-9007-3bbfa125c6ce"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0c22ce1-f7f7-4a9d-9479-179d33708933">
+                    <propertyInstance
+                      Id="8fba02ed-f727-44bc-aa36-3c7bcd5d2372"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="255cc413-2455-4578-ac5e-12a3aa59d0b7">
+                    <propertyInstance
+                      Id="46752adb-4c01-4d34-97d4-2af9e103fd48"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7051ccb7-4d2b-4abe-a885-581d42ada25d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="63999a98-a089-48a9-b5ff-7ee609079682"
+                      LastKnownName="IEnumerable&lt;String‎&gt;"
+                      LastKnownLocation="Package22_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="dd07a96e-4a59-4696-909a-2c8e2e5ae972"
+            name="ErrorCodeToString"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="11572688-b3bf-4239-ba2a-40c985f1e97f"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=(Name=ErrorCodeToString OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/System.Web.ApplicationServices.dll&quot; Namespace=System.Web.Security Type=MembershipCreateStatus)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="269870b7-0893-4e7c-a960-72dcbb41a9c1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccf26a8e-03e7-4555-ba23-c6352050c12c">
+                    <propertyInstance
+                      Id="84744cb7-86b2-4aa7-b45f-ab539e58a46e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75b567f8-3271-44c2-b857-4a3d266e61c5">
+                    <propertyInstance
+                      Id="56cfb935-eb35-40e7-81aa-04b97e4654e2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4bf4f71e-0583-4f95-854c-42af062b93df">
+                    <propertyInstance
+                      Id="474ba020-8827-4a3a-9f89-2d8084bf167f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8e6e73d-de7e-4a94-b3eb-e970e573d554">
+                    <propertyInstance
+                      Id="a42370a0-2040-43e3-b569-2794e8d4cdb3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="888a2fc5-bbb4-45c7-8fd7-582ffa3418c9">
+                    <propertyInstance
+                      Id="79e27152-c8e1-4d00-b970-6590df4a07b9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8aeba2c-3921-4f37-938e-c1fb5e26445c">
+                    <propertyInstance
+                      Id="f47917b0-8216-43f0-b043-672852cccac4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="96444e27-489c-4972-b926-616d3bc2b1ab"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="SlaCalculationModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5f3cb482-f3e5-49a4-91fe-2d010f95e148"
+                  name="createStatus"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e914980e-9477-43cc-8c33-c918c9574e2d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=(Name=ErrorCodeToString OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/System.Web.ApplicationServices.dll&quot; Namespace=System.Web.Security Type=MembershipCreateStatus)]) ParameterIdentifier=createStatus"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="7da0aa16-0720-4754-8866-93103502023c"
+                      LastKnownName="MembershipCreateStatus"
+                      LastKnownLocation="Package20_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5686e67d-1b0a-4659-ad2b-90cd04f34afa"
+            name="AccountController"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="89621edb-ddb5-462e-bdbe-8ec032617647"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=AccountController Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d8338dd7-53f8-4cf4-912b-aff6f188375e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90f1c160-13dd-44ab-9a55-62faaff6040d">
+                    <propertyInstance
+                      Id="ea7bb31e-8849-408c-b457-a4ae89ef95f4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9310bebc-d42e-4d3d-a510-41e94fd51dcc">
+                    <propertyInstance
+                      Id="35cde84f-1d8a-4793-b20a-273de5010ee1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="532d57b2-9be4-4460-ac05-e3ea1588fc60">
+                    <propertyInstance
+                      Id="7b80c7fa-504c-4133-af65-1f73e799d3d9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1851252e-21c2-4c0f-bcc4-52fb04cc1485">
+                    <propertyInstance
+                      Id="29e6f32a-a2b7-4b23-8f6b-0ee536a37dd1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ce342e8-6bd2-42e4-a9fd-13656aa4a1dc">
+                    <propertyInstance
+                      Id="8be8c809-0ab0-4b03-ba7a-80d84733ae85"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc63a6cc-067d-4a06-a995-53c10fc1f468">
+                    <propertyInstance
+                      Id="8f446f0e-25a2-4d48-9619-0de65545df51"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1aa9d996-350a-4d6d-8bd9-710d5051b6df"
+        name="CalculateController"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="af567ad8-174d-4521-a200-b7a6dbe46e7a"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=CalculateController"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c7bca778-728b-4d92-8f2e-92ae7cfa5260"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa6cf16b-b238-498c-a3ac-5050d2c317b8">
+                <propertyInstance
+                  Id="b6cb6233-7762-47e4-be3a-0956075ca4c9"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a6d7c491-d291-47ed-9cd1-c10f23b68611">
+                <propertyInstance
+                  Id="838874a9-651b-4193-97cd-dc23b4f19083"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fb58abfe-72e3-4217-a2f6-4148beb8ad1d">
+                <propertyInstance
+                  Id="a7bec3d2-d0c0-4cc7-98bb-b38df4d27cfa"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="02a08677-6a93-45ae-b178-2a8cbf69732c">
+                <propertyInstance
+                  Id="36374d90-979d-4110-90f9-784930188855"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="772c37e8-5649-4998-910e-61f37de58909">
+                <propertyInstance
+                  Id="a2fe4c32-9409-4592-88fc-fbffb06a8f78"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="e0b0811c-47b9-4ba6-af9d-8aeaea26185f"
+            isSubstitutable="false">
+            <classMoniker
+              Id="55244931-fce8-4d37-bfcd-ad313d766257"
+              LastKnownName="Controller"
+              LastKnownLocation="Package17_1052.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="3ba8af0a-a113-4d35-a3ec-a51c9ea8e1c1"
+            name="Index"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="95dae610-8ba5-46a0-ad09-361d13f84a11"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=CalculateController Member=Index"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c516a2da-63c6-4287-a190-4bc006b9287c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ccda3e7-3055-4a87-ac59-1bcfcb58eb5c">
+                    <propertyInstance
+                      Id="41032e4d-8bbe-496d-9dd0-3a741fc909c3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92a54e60-1f83-417b-baab-0465e5ccf0c5">
+                    <propertyInstance
+                      Id="1da61b81-14f4-436f-ad09-dac6c258153a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b33361c-6921-4b84-8b79-53f42d4c8f57">
+                    <propertyInstance
+                      Id="aa10cc54-cd2a-4df6-a304-43c14d641828"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0f4b4d7-5745-4fa5-94d4-12d991fb1aff">
+                    <propertyInstance
+                      Id="372f06d6-6ff6-4fc1-8bcd-308fee38f270"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5460bea1-e938-4742-8623-c6f76985087f">
+                    <propertyInstance
+                      Id="24dec33c-6002-47fd-8011-5aea43ed731d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b7ea8c0-4858-4559-90a0-7cfe7b4ffb27">
+                    <propertyInstance
+                      Id="f73d9cd5-0313-4bec-b031-0857290ba20a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ce751942-0a1b-4f7b-b4e8-cb5d2fb4253a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3b778341-e311-41e2-bf50-a3fabb1a4733"
+            name="FinalDisplay"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8fbc9286-c71d-40d5-8e8b-dc0775217c90"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=CalculateController Member=FinalDisplay"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d25f4a52-69b1-49cd-8a21-db4124011ccb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e85ac1c-48a7-4197-91cc-86b0d763b790">
+                    <propertyInstance
+                      Id="d2f82599-10a5-43bf-acbe-c22866c12470"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="572fbf8e-8cf2-427f-8f61-683261e4b2dc">
+                    <propertyInstance
+                      Id="8921dfb8-12a1-465b-b7a1-9fb0c359240f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ce09342-f205-4459-9a08-ec262d978323">
+                    <propertyInstance
+                      Id="cc298369-1d30-4232-a1c5-141093f2efa9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a464f7b8-3d93-4c67-b6b8-de71698cd448">
+                    <propertyInstance
+                      Id="6616fe1c-b4a2-442d-950c-8e71d2fdfa65"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f620a4cd-258c-498a-8d9e-187ff9799fd6">
+                    <propertyInstance
+                      Id="715419ac-8e6d-4eb1-b265-b09a2e6b233f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03b11b7d-822b-4cc8-86d9-33381c6c9d1d">
+                    <propertyInstance
+                      Id="a640aa73-2dd3-44b7-987c-2cf62ff4922d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8ace1cb0-663c-4138-b3d7-f30baafd96d0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="42e6e6df-2f13-4da6-8499-4ff72947e28f"
+            name="CalculateController"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4223df25-3b81-4c0e-b507-7cfcc254135e"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=CalculateController Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="504e5f79-33a1-46c7-b466-f93c7bfff12c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="211a3b21-1a43-4859-9650-a050f0695fd1">
+                    <propertyInstance
+                      Id="d9aac44b-507e-4f54-b80e-8a2b90de2f09"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5567bca2-9027-4ce0-8148-c38de4874224">
+                    <propertyInstance
+                      Id="3533bfe8-c369-4aab-b524-50780a86f2b1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c61d4eac-a456-443f-91df-564ac4d2bf42">
+                    <propertyInstance
+                      Id="d523a80b-71a3-4521-939d-24c7f05ef6b3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e2c5d6f-5540-47bb-8e4b-8247a489b68e">
+                    <propertyInstance
+                      Id="ac8e5cf0-1c56-4314-8fd7-ee4a932947ca"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1408b36-ce73-46f2-867f-8130aeeea173">
+                    <propertyInstance
+                      Id="8b4bf5c7-54d2-4291-8318-bb59f9667f8f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a250c2f6-460e-4616-a8a1-e7fc8ec2bc9f">
+                    <propertyInstance
+                      Id="90a14653-35a5-4b12-a1d2-cb3be2a7018d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6ee7389c-9da6-4de1-b52f-7795c0963173"
+        name="HomeController"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="26bae664-ba9e-43c6-8710-291b4f152bc4"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=HomeController"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9f4ee57d-773f-4ed4-9231-9b39f565f95e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be167e97-a436-45a7-af1e-a1eb9a2252e6">
+                <propertyInstance
+                  Id="f57b2df3-d9ff-48a7-8fb8-047c96e48019"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ea81a95f-2194-4b75-81ba-a3d49fdc3aaf">
+                <propertyInstance
+                  Id="4fe12234-89ed-4043-bea4-7292775e0e03"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f0846f95-abb3-40d6-98f6-556cc9651fe4">
+                <propertyInstance
+                  Id="b2b63278-462c-477e-a331-3ba1ae82e2b0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="16612ead-c53b-400a-b37b-21f115e071ce">
+                <propertyInstance
+                  Id="99055163-8058-4ddf-9f1e-4d0a7cf71d9b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="913c9289-05b7-46ac-8d30-d8bbee63c4ef">
+                <propertyInstance
+                  Id="87f1d48d-0772-420d-a2df-e0076687fbff"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="94bd6583-9183-416d-a1ce-5e2ab2396ba5"
+            isSubstitutable="false">
+            <classMoniker
+              Id="55244931-fce8-4d37-bfcd-ad313d766257"
+              LastKnownName="Controller"
+              LastKnownLocation="Package17_1052.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d866089d-be51-4afa-8d4f-88ccd8aff903"
+            name="Index"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e4b0a99c-4fa9-439b-aa70-ba909141270b"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=HomeController Member=Index"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f34dcd58-fa8a-4fac-810d-6962b101be29"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb7490b5-1bde-490f-85b3-45490a3e8e6d">
+                    <propertyInstance
+                      Id="248980b4-6e28-4018-ad82-14c255cea083"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1279a8a0-c69a-4f95-b61b-bee1242da7df">
+                    <propertyInstance
+                      Id="3e43edb6-7dc4-4058-ad6c-b023742aa2e2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6783b7b7-66ed-4a82-a10b-5c1662fa0213">
+                    <propertyInstance
+                      Id="f3b2a864-9122-4e8c-9360-68f29daf0953"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d7f078a-385f-4938-a089-f2c0b75caf71">
+                    <propertyInstance
+                      Id="485441e6-d717-4b96-91cf-dbfd56fd804b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d0c3159-f01c-49b6-9748-381ba520b9ef">
+                    <propertyInstance
+                      Id="013df703-ed0d-48bb-a6c8-820ae5d94eb1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb55e2d8-3b0c-41c9-9a9b-3e6ce5a55ee4">
+                    <propertyInstance
+                      Id="4e860128-30f8-4c02-a023-9895d53c84c3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="800b3308-3635-4021-bc65-372d82c9acdb"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ed0292f1-7961-4841-9ae5-eb4d71347832"
+            name="About"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b23992e0-ad00-4725-ac70-142c39f221c3"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=HomeController Member=About"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9ccae381-d99f-43f9-bdf0-90a65bbd2806"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e1d07a1-b50a-45e2-8f6a-219a9248eadb">
+                    <propertyInstance
+                      Id="2ef427da-21e6-40e9-9587-c9520b629480"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c35006ae-279c-4e34-9138-3492376dcf71">
+                    <propertyInstance
+                      Id="77b33d5b-a0a3-4cba-9b39-ea2e733fe489"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18a70706-2704-49db-bc27-6c0667c9b77f">
+                    <propertyInstance
+                      Id="3f36011f-639c-41bd-b040-fd02dee99af1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d829cbb-cf2c-44f8-8f2b-0a405f36ad7b">
+                    <propertyInstance
+                      Id="e7f3c096-7ed3-4e31-af79-19149b4cbafb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3992c7aa-cd7d-4104-8be3-27dc1f6ccda4">
+                    <propertyInstance
+                      Id="8ddcf6af-bc3e-4bdd-b5ab-b6eb1bac96a5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1ef0bc1-89d6-44d0-8e4b-6f38514da939">
+                    <propertyInstance
+                      Id="c5aa0dca-baeb-4ef1-ad64-62d4c0850f59"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f5b17495-d9d1-4804-865d-c755f20b236a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="539af610-31ff-43be-a7e3-2201f3054332"
+            name="Contact"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8f38809d-d67c-4c6d-8b4e-f66c563d172f"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=HomeController Member=Contact"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="867dabc5-c105-4d1a-acbb-a348f686e726"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="583e912e-d2b8-4ad5-894e-46f5565904eb">
+                    <propertyInstance
+                      Id="0a9fd304-c57a-4d3d-81cc-afb6a605922f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7222d92-6964-4e6e-9441-59839c3ed4f3">
+                    <propertyInstance
+                      Id="01b03d83-3a70-4fed-9ad8-bac4e948ac80"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a857e7d8-bcec-4758-a1b5-42c38aed2b55">
+                    <propertyInstance
+                      Id="9f9ae3bf-ae8a-4eed-921c-461aa1daf122"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9cc9cff9-e1ac-4a27-81b1-3024edc0669d">
+                    <propertyInstance
+                      Id="b6bd18d1-e29b-4482-a93c-749af2765109"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="afc48d5e-08aa-4982-a660-6c5fb390fd7d">
+                    <propertyInstance
+                      Id="a0f81ea1-d512-4403-a10c-b86d17836f3a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f73ce694-1a85-4971-b6ac-2f5fa356c541">
+                    <propertyInstance
+                      Id="5b5f6cbb-ed77-4e01-857f-56f9e0d26292"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a9d470dc-9029-466a-8e70-bd4700a13b1d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="967afa8b-b89c-4ed5-b4a8-e9652f448469"
+            name="HomeController"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a754fed0-262d-4b2d-9ec5-6ceabc157657"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=HomeController Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="72925fa5-2dc1-433d-abb3-f1ea1549ec42"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81e4e84e-2b46-407c-8b73-eb5d17114ae5">
+                    <propertyInstance
+                      Id="6a1eb0ea-e45a-4d11-8c00-795d7fc77bf4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97515806-96f4-455c-b81e-79e29020d02e">
+                    <propertyInstance
+                      Id="e8f6f991-e9cb-4283-837c-7d52f565fee5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ee0ee88-1d80-433b-ad9f-07d46b294f7a">
+                    <propertyInstance
+                      Id="40f66b41-196a-4c6c-b33d-2c6ebf5be8a3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d29ffe14-2648-42d2-b0ef-52066858a089">
+                    <propertyInstance
+                      Id="b32616f7-839e-45c4-aeff-9f7b53a6ef16"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b56e3e86-879f-48a6-b97f-79a08532e0f9">
+                    <propertyInstance
+                      Id="7e5ab41f-8fd5-4bf7-9749-98680fdcd8c9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eee27f4d-10e9-4dc0-860a-32743745e296">
+                    <propertyInstance
+                      Id="44e49866-c147-479d-b822-9beda8de61f9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ddbcef1a-eedc-4251-a760-ff14144b24f8"
+        name="UsersController"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f0f46adb-78ca-4f58-93c8-2bd360f6d07b"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7e57c735-8717-4574-b37f-a83544230408"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="00b3c199-b607-45cb-b0a6-3398b640ac61">
+                <propertyInstance
+                  Id="f153f6ff-fa02-4df5-9e56-b919c0a16dbb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="78a81655-8af0-431f-ac3a-860fe203234e">
+                <propertyInstance
+                  Id="9b8ac48b-94f8-4577-af86-964755f0cf67"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e74273ec-da29-4d5a-b5a4-a05497527014">
+                <propertyInstance
+                  Id="bfe8955f-6cea-4901-a8a0-3d0ad25b8c13"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f5235b0d-ba04-4d07-997b-6c5a7b49b2e4">
+                <propertyInstance
+                  Id="f6098593-b48a-4c34-b101-9e88970767c5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7dee34ab-506c-4bcf-8efb-6b27252b0620">
+                <propertyInstance
+                  Id="dbd25a6d-1867-459e-8872-adfe51465e2c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="8526bb38-941c-4130-861b-7314d06161bd"
+            isSubstitutable="false">
+            <classMoniker
+              Id="55244931-fce8-4d37-bfcd-ad313d766257"
+              LastKnownName="Controller"
+              LastKnownLocation="Package17_1052.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="df39070f-3cba-4a0d-87fa-827144650d05"
+            name="db"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="021109ab-daa2-4b78-9de4-820355a7a3e6"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=db"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5bf6d106-1f49-4e5a-9205-2d1b5f5ccf97"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1bb4bb3e-41f9-4b56-98e5-cdeb20364ac0">
+                    <propertyInstance
+                      Id="d513a10c-0689-4a13-9dde-5111dd035d04"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e71ace4-f557-4d31-add9-e280b36d0fa1">
+                    <propertyInstance
+                      Id="9ab85652-8a6c-4f93-badc-8a335f9bdd45"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ca6e1ac-bf12-4cc2-ad22-231bdced6d09">
+                    <propertyInstance
+                      Id="80792ce2-cb83-4285-b9d5-83542e0b1a7e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfe32c3d-9404-49f6-98e6-666ae1e32244">
+                    <propertyInstance
+                      Id="a686b3a4-3824-4dc2-a43d-33459623f61a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86fd7aee-0f5d-4b4f-b4c2-68ed44313c0f">
+                    <propertyInstance
+                      Id="add5fd63-0d0c-4313-94b4-6dd9face08c2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="92015dbd-67db-4485-ae72-fe4cb0896714"
+                LastKnownName="UserDBContext"
+                LastKnownLocation="Package5_1052.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="3a984d67-47d6-4ce4-901d-d924b2e308c0"
+            name="Index"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5171ac0e-b164-4cf2-bdf4-884d28665911"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=Index"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d1310126-6edf-4862-b1bc-ecc528fd4954"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="449c0b7a-b93a-48e3-b370-90240eb767c5">
+                    <propertyInstance
+                      Id="03de2d38-80ee-4da2-9a31-9a0693619250"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1ad61c1-f096-4f12-903d-34ef23ea5f67">
+                    <propertyInstance
+                      Id="a46d3c1c-488b-47d2-9196-191c24b258ac"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc2574ac-58fe-4916-bfa8-151c46511a74">
+                    <propertyInstance
+                      Id="6d9d12f1-f7e7-4507-a357-cfd86d9b2e86"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2a21ec5-e4ed-4793-aabf-afc16210421d">
+                    <propertyInstance
+                      Id="2c1e4aec-7e04-43a3-b22d-9d0d1d5ac3ce"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15cf0f6e-99f2-4161-8f0b-7861f0ae575b">
+                    <propertyInstance
+                      Id="55aff4b2-aaf0-4f80-b4fc-43f4d3012e71"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9817b446-9a52-449a-b534-cbd89de99094">
+                    <propertyInstance
+                      Id="6602fa21-9921-4cf3-bcf6-3acfe74b3b90"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7dc902b0-8761-460b-ac56-7942f9be63c1"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c9caafd4-1730-4675-87eb-8c6e73749358"
+            name="Details"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="58c741f6-edce-4310-94c3-9320541d0a2f"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=(Name=Details OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Int32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f7e61557-bd25-4e5b-a793-2c547fa1912f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8532adc2-4118-44c5-adb3-698f07c442ab">
+                    <propertyInstance
+                      Id="b2be15f2-361d-4ad1-98f4-629a62174864"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e05a884a-be42-4eb0-b069-41126ce221a1">
+                    <propertyInstance
+                      Id="b20dee78-954a-4d59-8775-09d181786632"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8690faaf-2d4e-47dd-ac78-8165c2bcf2b8">
+                    <propertyInstance
+                      Id="d65b339e-820f-4e54-8553-08ca3555e292"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e2853c1-4756-47f1-82fd-83cbc73104d0">
+                    <propertyInstance
+                      Id="19421718-e538-4c9f-abb5-fa2d985a6b23"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef49cdf7-bb45-49dd-abbc-543f792d49be">
+                    <propertyInstance
+                      Id="ae4096d9-cbbe-49d3-84dd-1a90843d35dd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd03072e-74a4-4f1a-83c2-76e83e5fc2d7">
+                    <propertyInstance
+                      Id="024b2d39-9e6b-46ed-a0b3-472e7c2fc69b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a61290b3-8fac-4f6d-a91d-6d191a8b8405"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="22aad0d7-ce09-493d-b007-c6befe6c2842"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a372d3b2-49fa-4ba2-96cf-86f819cc3621"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=(Name=Details OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Int32)]) ParameterIdentifier=id"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SlaCalculationModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="62f8a987-2792-4d1b-ae97-f988f23e6873"
+            name="Create"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b78ee7a4-5658-4d34-ae81-b88adda368dd"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=Create"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3f29a9d4-d6c8-4659-a1e9-a80548952bf1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="438e53cc-ae7e-470c-a332-296934078259">
+                    <propertyInstance
+                      Id="3360487e-a76d-4256-a3ef-9681c6f36cf7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53b4ec9c-9595-4c75-bbdc-8f693f575c09">
+                    <propertyInstance
+                      Id="1522048c-3e1e-474a-a86a-b93a406cab27"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f13893df-5719-4a6d-9291-8db5a3501f95">
+                    <propertyInstance
+                      Id="a4b60b63-fe18-4aec-99bc-833f842e50a0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8bc5b6f-c51f-4f0d-baab-61942070f0a5">
+                    <propertyInstance
+                      Id="bd2fec63-4b11-4201-941b-89f93b8b5334"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="540f1b8b-bdbf-4b7a-997c-f0ddd67921a9">
+                    <propertyInstance
+                      Id="5269398e-8b9a-40a4-b001-84c01a7923b9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50c5d0fa-6e4a-4101-a03e-74df7483bf21">
+                    <propertyInstance
+                      Id="94a71f71-7d6d-4751-9d9e-d309f6e7f5e7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3e204264-5473-4d8e-b655-089863ca2d9c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="178d7a72-f486-40d1-b93e-8e5132496dab"
+            name="Create"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="eefeb932-ac1a-49c1-a029-2fee746c787a"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=(Name=Create OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=User)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7f6ec539-d64b-498e-bb8f-183ec360bd0a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92df8ef4-5131-4760-bc84-f49a434f89c0">
+                    <propertyInstance
+                      Id="208c279b-6e7a-41fd-9bee-ba54cce490a5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1bd9b12c-9fef-42dd-af4f-c547d8795c14">
+                    <propertyInstance
+                      Id="d9f751fb-bcc7-44e3-ac5a-6e92443346fc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2cd32ce0-163c-4143-8e07-342d63903e51">
+                    <propertyInstance
+                      Id="de85f894-9194-4bca-ae65-f89f1575ffab"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d6bc06e-e7ac-4984-a85f-83ff2f62f09f">
+                    <propertyInstance
+                      Id="871a4bb1-6bdb-41b1-b154-1d577825cb8d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="598e234a-ef22-4f97-b3b2-0f84428739cd">
+                    <propertyInstance
+                      Id="bd8f2cbc-8151-462a-b5c0-1d8ac8fc830c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95c6f8c5-8fc2-4fe8-9070-283279a97195">
+                    <propertyInstance
+                      Id="54143b38-d6b4-44a0-9e60-9c42d46f31d7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c948f479-ff0e-4275-ae57-22d189c9ffbe"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="81b272db-54be-4947-b13e-543d335d30b4"
+                  name="user"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4c730f9b-80ac-43fa-af5a-09e6e27f5cd0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=(Name=Create OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=User)]) ParameterIdentifier=user"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="b0781594-9f6a-4b4f-9aad-6ab8e494980b"
+                      LastKnownName="User"
+                      LastKnownLocation="Package5_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="af527dd2-e10d-4b42-9d80-1f1b1f2377d0"
+            name="Edit"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c5cb1463-4bf6-47ad-8107-690a7708b08d"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=(Name=Edit OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Int32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b1060e95-9ee9-4329-be39-1213508605f6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5de5debd-c1ac-40ee-8fb8-47883d8bfa64">
+                    <propertyInstance
+                      Id="fef94b6a-1423-4fe2-903f-13936d7b1b52"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="941050aa-ae2a-4098-b11f-caf0a5584aae">
+                    <propertyInstance
+                      Id="f83d8606-0f5d-48e9-9ab0-ca1c3e99a1ce"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df7c4259-25c2-4624-89a9-9d9305b9e097">
+                    <propertyInstance
+                      Id="ea5f8634-1f23-49a3-83b7-dd14fa8e8934"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0ec2e60-6ae8-4915-9db1-f7aef7ea029f">
+                    <propertyInstance
+                      Id="12739e79-1818-48db-b179-f6159891facf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a300a836-5730-466c-8a5b-c33d6c3a1115">
+                    <propertyInstance
+                      Id="15344e36-c9c7-49a8-b374-9b6c365cea39"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5b5b159-6a5b-4771-b4fc-9c5bf100527b">
+                    <propertyInstance
+                      Id="3ea3cc5e-c82f-4d39-b2e1-d484ab177317"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5b158cbb-adf2-4690-98d2-f4aca365be7d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b2812bab-7674-4726-bddb-f808a65d52b5"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1326090e-3238-493a-8731-79be5b9f0c41"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=(Name=Edit OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Int32)]) ParameterIdentifier=id"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SlaCalculationModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b8a42f7c-9c52-4673-9814-e81da531fa71"
+            name="Edit"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6991d6c7-8558-4956-aa58-cd633882ff26"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=(Name=Edit OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=User)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bf682679-696f-4cd4-9261-96bb56f3af72"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="921c06e3-ed92-4758-a81d-b01b4e0ff04c">
+                    <propertyInstance
+                      Id="cb7bbbe7-c5d6-42d3-b934-cc61a413a6c3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3525e035-e415-423b-b8d9-a090f5b0252c">
+                    <propertyInstance
+                      Id="7ba799bc-4b00-4ee6-affa-0e9fa3116a7f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ea5ff33-1343-4fd3-a7bc-13c2001560de">
+                    <propertyInstance
+                      Id="c4a33191-8545-452b-b213-6b2a749591bd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fc96325-abdd-417a-8a20-948e58d3690c">
+                    <propertyInstance
+                      Id="1e623f89-1f61-4300-b5ab-c049e4b6484a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc807d53-b843-48ee-b44d-a12813165940">
+                    <propertyInstance
+                      Id="88bfaa35-ecd4-4803-86e9-1723f4324131"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53eeb82a-8a30-433f-8043-6a7453df6af1">
+                    <propertyInstance
+                      Id="6c05078b-fe21-43ab-a677-0880d20569b0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0f83c4d3-e4c4-4888-b487-73b09db84d83"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f69b875d-53bc-471b-93df-6eb7a8160a9c"
+                  name="user"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cdfbd419-4e66-4fe1-8573-ddc0ddd38058"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=(Name=Edit OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Models Type=User)]) ParameterIdentifier=user"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="b0781594-9f6a-4b4f-9aad-6ab8e494980b"
+                      LastKnownName="User"
+                      LastKnownLocation="Package5_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b4caf5a9-24bb-4f18-b15a-638d3dbe9550"
+            name="Delete"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6acdccd8-5d32-4155-bbf2-efd2055b5dc5"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=(Name=Delete OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Int32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ffbc7e9a-34af-4f40-a565-ff2824482e35"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29a0264e-1a77-4124-b610-c4c5b0135f59">
+                    <propertyInstance
+                      Id="40cff3cf-7160-4948-b27a-5981f17dcf2e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0636caa4-b4fa-4b20-8f69-a6632e505c6a">
+                    <propertyInstance
+                      Id="854ff193-0f56-4100-9cfc-1f0f42a4f5d5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29a30522-01c7-499c-81cb-cbf2c387baf1">
+                    <propertyInstance
+                      Id="ac90dae4-29fd-4b1d-a6c3-16df14e824f3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec752a1f-26a0-4dff-bf56-5064cb73a5fa">
+                    <propertyInstance
+                      Id="d15e8102-f2f2-441b-92d0-dd3425f1c472"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e18bcca-1e80-4e81-a661-c1e6ed8b27ca">
+                    <propertyInstance
+                      Id="9fce0ace-57b7-4c59-be8e-4b157e7ebe44"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3670f87d-43bf-4d6f-8974-5275ea7e9eda">
+                    <propertyInstance
+                      Id="86d89c40-1353-4f7f-b979-cbe5f106042d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="42cb03da-9a87-45c4-a9eb-41eee642544c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b15c640f-04f5-4330-936a-8f1b6f73ba69"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5308de1c-b873-4b75-aaf9-2d83cf4595a1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=(Name=Delete OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Int32)]) ParameterIdentifier=id"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SlaCalculationModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3f416478-65fa-4acc-a722-6d1aa3b4bc36"
+            name="DeleteConfirmed"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9f373d63-6f87-4502-b601-d900c9979550"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=(Name=DeleteConfirmed OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Int32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1aa46ace-27ac-4c67-a3c1-bd5bd0d7d74b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a96b5ac-fe6d-441b-8a1c-cbb4b3e89381">
+                    <propertyInstance
+                      Id="1da87480-3e7c-4a18-8a6a-28a6e1a75e36"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="847b56e2-cd7d-4dbd-96af-205303330ea3">
+                    <propertyInstance
+                      Id="ede7ba94-ca6e-4a08-8e4d-4c6bce65d2d4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccb0ee25-c88e-4da9-a3fd-b9bc125b432b">
+                    <propertyInstance
+                      Id="b697c9aa-6f5d-4a75-b4f9-c77692039ed0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4ec8187-f19c-4055-8ef7-9280c7f61ffa">
+                    <propertyInstance
+                      Id="9008f47d-9aa8-43d3-b386-8c0212bb77f2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13d44016-b0c5-4669-8e94-cbd6b9beac0e">
+                    <propertyInstance
+                      Id="d6ab090a-e7e5-48e6-b269-db62e4a91aed"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="547053f8-e0a3-405a-bff1-e07f0ba99535">
+                    <propertyInstance
+                      Id="1e7c192b-85be-43bf-a1cc-16f60e9e5c13"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f3d36fa9-46bd-4c09-80b2-4c068548087e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1b90261-1505-4492-b0d6-02ad5db0f0fb"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package17_1052.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6b29ac6c-9310-41e4-ab32-8fb23fdb53d5"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="59f218d3-0ff1-48e4-9aa3-68acde2f4043"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=(Name=DeleteConfirmed OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Int32)]) ParameterIdentifier=id"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SlaCalculationModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="877ff6e5-29e8-4749-a00c-a33ad6602cb4"
+            name="Dispose"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="16ecdd24-7350-448b-928c-0aee1c01b1d5"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=(Name=Dispose OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Boolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="eb454cfd-4143-443a-9ab8-1942a04c3c86"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3ae14f4-5038-4405-9963-10e4465b5be0">
+                    <propertyInstance
+                      Id="f1fa3728-762f-4efa-9819-7bfc6c64bf4b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4acf5a8e-b0f4-4ad3-8a29-f01ce2261009">
+                    <propertyInstance
+                      Id="08f0a1b7-d82c-4eee-9177-fc727265f7d1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="203b4988-fca7-415e-8ab1-052b95feed14">
+                    <propertyInstance
+                      Id="42cb5c4a-88e9-443f-ae08-a7db7408e05f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58e02d95-b798-4c1e-8ac5-a638df1faa1c">
+                    <propertyInstance
+                      Id="2d748989-e33c-44c6-98bc-9919b5b473e0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0de67089-e0fb-4aa4-be4d-461786c10b96">
+                    <propertyInstance
+                      Id="76d0c27c-bf88-4159-a0ee-a065d5bda085"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0aef6ff8-3c4c-4585-bfdb-a01188c180e2">
+                    <propertyInstance
+                      Id="d02d2d8a-5c6e-4523-b983-39f8c9aa49f5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="eb68df5d-c94b-4744-bed8-3dc838194815"
+                  name="disposing"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7e94b2a5-b0bd-46d8-b7c3-49f3902bd74b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=(Name=Dispose OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Boolean)]) ParameterIdentifier=disposing"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="SlaCalculationModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c18b77d2-5ed6-4b6c-a547-6e3e1f257dd8"
+            name="UsersController"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8c2c3ee2-21c5-4d6c-9eea-5266023eb2c8"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Abhinandan/Documents/Visual Studio 2012/Projects/SlaCalculation/SlaCalculation/bin/SlaCalculation.dll&quot; Namespace=SlaCalculation.Controllers Type=UsersController Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e21eb6e1-aaaa-41ad-bdb6-4b86ddada403"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="caa8d268-0926-4c68-9c75-720e76de19e7">
+                    <propertyInstance
+                      Id="dfa10f90-9842-468d-ab5c-6248a4693a48"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce5efbec-bf96-43fe-ac53-578409350a5a">
+                    <propertyInstance
+                      Id="cda484b0-5f34-493b-9499-6a6defcee25f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96083b4e-4920-46e4-8869-9a81c896250e">
+                    <propertyInstance
+                      Id="de0cf406-9b6b-4e02-ac12-dbe47ffd073d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de77b16a-ee99-4cdd-922e-0b56dab5bbf3">
+                    <propertyInstance
+                      Id="b1230676-d361-4a7d-881e-e47443121426"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8700078a-7ff9-411a-b598-debb24ee7cb4">
+                    <propertyInstance
+                      Id="53c9e24d-a81a-49d5-abe0-42831bb669a6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef82674c-b3c9-4bf4-84bc-bbba9bb63470">
+                    <propertyInstance
+                      Id="b01f358f-ac20-4db9-8e9f-55306c4afcbd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
