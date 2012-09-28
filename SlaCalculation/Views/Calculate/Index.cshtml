@@ -1,1 +1,43 @@
-﻿
+﻿@model System.Data.DataTable
+@using System.Data;
+<html>
+<body>
+    
+        <h1>Excel File Upload</h1>
+        <form  method="post" enctype="multipart/form-data">
+            <label for="file">Filename:</label>
+            <input type="file" name="file" id="file" accept=".xls,.xlsx" />
+            <input type="submit"/>
+        </form>
+
+@if (IsPost) {
+    
+    <span>File uploaded Successfully!</span><br /> <br/>
+    
+    <h2>Total Number of SLA Broken : @ViewBag.Message</h2>
+    <h2>A Detailed Report</h2>
+    <table>
+        <thead>
+            <tr>
+                @foreach (DataColumn col in Model.Columns)    
+                {         
+                    <th>@col.ColumnName</th>
+                }    
+            </tr>
+        </thead>        
+        <tbody>
+            @foreach (DataRow row in Model.Rows)    
+            {        
+                <tr>
+                    @foreach (DataColumn col in Model.Columns)        
+                    {             
+                        <td>@row[col.ColumnName]</td>
+                    }        
+                </tr>
+            }    
+        </tbody>
+    </table>
+    
+    }
+</body>
+</html>

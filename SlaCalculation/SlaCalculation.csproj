@@ -243,11 +243,10 @@
     <Content Include="Views\Users\Edit.cshtml" />
     <Content Include="Views\Users\Delete.cshtml" />
     <Content Include="Views\Calculate\Index.cshtml" />
-    <Content Include="Views\Calculate\FinalDisplay.cshtml" />
     <Content Include="Views\CreateUser\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <Folder Include="App_Data\uploads\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
