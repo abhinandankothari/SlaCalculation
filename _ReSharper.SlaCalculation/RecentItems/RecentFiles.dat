@@ -3,17 +3,26 @@
     <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Models/f:AccountModels.cs" caret="341" fromTop="13" />
     <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Views/d:CreateUser/f:Create.cshtml" caret="324" fromTop="9" />
     <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Models/f:User.cs" caret="572" fromTop="22" />
-    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:CreateUserController.cs" caret="1097" fromTop="22" />
-    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:UsersController.cs" caret="1070" fromTop="8" />
-    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:CalculateController.cs" caret="302" fromTop="14" />
     <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Models/f:CreateUserViewModel.cs" caret="642" fromTop="19" />
-    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Views/d:Calculate/f:FinalDisplay.cshtml" caret="0" fromTop="0" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:AccountController.cs" caret="2550" fromTop="12" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/f:Web.config" caret="2282" fromTop="19" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:HomeController.cs" caret="454" fromTop="18" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:UsersController.cs" caret="157" fromTop="6" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:CreateUserController.cs" caret="383" fromTop="4" />
     <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Views/d:Calculate/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:CalculateController.cs" caret="1335" fromTop="8" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Views/d:Calculate/f:FinalDisplay.cshtml" caret="150" fromTop="11" />
   </RecentFiles>
   <RecentEdits>
-    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:UsersController.cs" caret="391" fromTop="17" />
     <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Models/f:User.cs" caret="526" fromTop="22" />
-    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:CreateUserController.cs" caret="1060" fromTop="21" />
     <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Models/f:CreateUserViewModel.cs" caret="246" fromTop="8" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:UsersController.cs" caret="261" fromTop="11" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:HomeController.cs" caret="231" fromTop="10" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:CreateUserController.cs" caret="195" fromTop="7" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/f:Web.config" caret="1408" fromTop="0" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:AccountController.cs" caret="2688" fromTop="16" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Views/d:Calculate/f:FinalDisplay.cshtml" caret="51" fromTop="2" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Views/d:Calculate/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="47745DF3-505F-49AA-A0DD-1507AADA60CB/d:Controllers/f:CalculateController.cs" caret="1486" fromTop="10" />
   </RecentEdits>
 </RecentFiles>

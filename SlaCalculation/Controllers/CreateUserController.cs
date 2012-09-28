@@ -8,7 +8,6 @@ using SlaCalculation.Models;
 namespace SlaCalculation.Controllers
 {
     
-
     public class CreateUserController : Controller
     {
         

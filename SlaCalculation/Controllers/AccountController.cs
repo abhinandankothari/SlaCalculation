@@ -89,7 +89,8 @@ namespace SlaCalculation.Controllers
                 if (createStatus == MembershipCreateStatus.Success)
                 {
                     FormsAuthentication.SetAuthCookie(model.UserName, createPersistentCookie: false);
-                    return RedirectToAction("Create", "Users");
+                    Roles.AddUserToRole(model.UserName, "NormalUser");
+                    return RedirectToAction("Create", "CreateUser");
                 }
                 else
                 {

@@ -9,6 +9,7 @@ using SlaCalculation.Models;
 
 namespace SlaCalculation.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class UsersController : Controller
     {
         private UserDBContext db = new UserDBContext();
