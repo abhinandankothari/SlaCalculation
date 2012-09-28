@@ -16,7 +16,7 @@ namespace SlaCalculation.Models
         [Display(Name = "Employee ID")]
         public string EmployeeId { get; set; }
         [Required]
-        [Display(Name = "Date of Birth")]
+        [Display(Name = "Date of Birth(Age Must Be Greater then 22 Years")]
         [DataType(DataType.Date)]
         public DateTime Dob { get; set; }
         [Required]
@@ -26,8 +26,9 @@ namespace SlaCalculation.Models
         public string Email { get; set; }
         [Required]
         [Phone]
+        [RegularExpression("^[7-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9]")]
         [Display(Name = "Mobile Number")]
-        [StringLength(14, ErrorMessage = "The Employee ID must be at least {2} characters long.", MinimumLength = 10)]
+        [StringLength(14, ErrorMessage = "The Mobile Number must be must be at least {2} characters long.", MinimumLength = 10)]
         public string Mobile { get; set; }
     }
 }
