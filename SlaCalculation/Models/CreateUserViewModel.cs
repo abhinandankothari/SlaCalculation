@@ -26,7 +26,7 @@ namespace SlaCalculation.Models
         public string Email { get; set; }
         [Required]
         [Phone]
-        [RegularExpression("^[7-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9]")]
+        [RegularExpression("^[7-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9]$")]
         [Display(Name = "Mobile Number")]
         [StringLength(14, ErrorMessage = "The Mobile Number must be must be at least {2} characters long.", MinimumLength = 10)]
         public string Mobile { get; set; }
