@@ -16,7 +16,7 @@ namespace SlaCalculation.Models
         [Display(Name = "Employee ID")]
         public string EmployeeId { get; set; }
         [Required]
-        [Display(Name = "Date of Birth(Age Must Be Greater then 22 Years")]
+        [Display(Name = "Date of Birth(Age Must Be Greater then 22 Years)")]
         [DataType(DataType.Date)]
         public DateTime Dob { get; set; }
         [Required]
